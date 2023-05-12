@@ -1,0 +1,705 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.xiaofeng.parking"
+4    android:versionCode="1"
+5    android:versionName="1.0.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="19"
+9        android:targetSdkVersion="31" />
+10    <!--
+11         Flutter needs it to communicate with the running application
+12         to allow setting breakpoints, to provide hot reload, etc.
+13    -->
+14    <uses-permission android:name="android.permission.INTERNET" />
+14-->C:\Users\Joker.Law\Desktop\projectcode2\android\app\src\main\AndroidManifest.xml:37:5-67
+14-->C:\Users\Joker.Law\Desktop\projectcode2\android\app\src\main\AndroidManifest.xml:37:22-64
+15    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+15-->C:\Users\Joker.Law\Desktop\projectcode2\android\app\src\main\AndroidManifest.xml:36:5-75
+15-->C:\Users\Joker.Law\Desktop\projectcode2\android\app\src\main\AndroidManifest.xml:36:22-72
+16    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+16-->C:\Users\Joker.Law\Desktop\projectcode2\android\app\src\main\AndroidManifest.xml:38:5-79
+16-->C:\Users\Joker.Law\Desktop\projectcode2\android\app\src\main\AndroidManifest.xml:38:22-76
+17    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+17-->C:\Users\Joker.Law\Desktop\projectcode2\android\app\src\main\AndroidManifest.xml:39:5-76
+17-->C:\Users\Joker.Law\Desktop\projectcode2\android\app\src\main\AndroidManifest.xml:39:22-73
+18    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+18-->C:\Users\Joker.Law\Desktop\projectcode2\android\app\src\main\AndroidManifest.xml:40:5-79
+18-->C:\Users\Joker.Law\Desktop\projectcode2\android\app\src\main\AndroidManifest.xml:40:22-77
+19    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+19-->C:\Users\Joker.Law\Desktop\projectcode2\android\app\src\main\AndroidManifest.xml:40:5-79
+19-->C:\Users\Joker.Law\Desktop\projectcode2\android\app\src\main\AndroidManifest.xml:40:22-77
+20    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+20-->C:\Users\Joker.Law\Desktop\projectcode2\android\app\src\main\AndroidManifest.xml:42:5-80
+20-->C:\Users\Joker.Law\Desktop\projectcode2\android\app\src\main\AndroidManifest.xml:42:22-78
+21    <uses-permission android:name="android.permission.ACCESS_MEDIA_LOCATION" />
+21-->C:\Users\Joker.Law\Desktop\projectcode2\android\app\src\main\AndroidManifest.xml:43:5-79
+21-->C:\Users\Joker.Law\Desktop\projectcode2\android\app\src\main\AndroidManifest.xml:43:22-77
+22    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+22-->C:\Users\Joker.Law\Desktop\projectcode2\android\app\src\main\AndroidManifest.xml:44:5-79
+22-->C:\Users\Joker.Law\Desktop\projectcode2\android\app\src\main\AndroidManifest.xml:44:22-76
+23    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+23-->C:\Users\Joker.Law\Desktop\projectcode2\android\app\src\main\AndroidManifest.xml:45:5-81
+23-->C:\Users\Joker.Law\Desktop\projectcode2\android\app\src\main\AndroidManifest.xml:45:22-78
+24    <uses-permission android:name="android.permission.ACCESS_BACKGROUND_LOCATION" />
+24-->C:\Users\Joker.Law\Desktop\projectcode2\android\app\src\main\AndroidManifest.xml:46:5-85
+24-->C:\Users\Joker.Law\Desktop\projectcode2\android\app\src\main\AndroidManifest.xml:46:22-82
+25    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
+25-->[:geolocator_android] C:\Users\Joker.Law\Desktop\projectcode2\build\geolocator_android\intermediates\library_manifest\debug\AndroidManifest.xml:7:5-77
+25-->[:geolocator_android] C:\Users\Joker.Law\Desktop\projectcode2\build\geolocator_android\intermediates\library_manifest\debug\AndroidManifest.xml:7:22-74
+26    <uses-permission android:name="com.huawei.android.launcher.permission.CHANGE_BADGE" />
+26-->[:jpush_flutter] C:\Users\Joker.Law\Desktop\projectcode2\build\jpush_flutter\intermediates\library_manifest\debug\AndroidManifest.xml:7:5-91
+26-->[:jpush_flutter] C:\Users\Joker.Law\Desktop\projectcode2\build\jpush_flutter\intermediates\library_manifest\debug\AndroidManifest.xml:7:22-88
+27
+28    <queries>
+28-->[:flutter_inappwebview] C:\Users\Joker.Law\Desktop\projectcode2\build\flutter_inappwebview\intermediates\library_manifest\debug\AndroidManifest.xml:7:5-11:15
+29        <intent>
+29-->[:flutter_inappwebview] C:\Users\Joker.Law\Desktop\projectcode2\build\flutter_inappwebview\intermediates\library_manifest\debug\AndroidManifest.xml:8:9-10:18
+30            <action android:name="android.support.customtabs.action.CustomTabsService" />
+30-->[:flutter_inappwebview] C:\Users\Joker.Law\Desktop\projectcode2\build\flutter_inappwebview\intermediates\library_manifest\debug\AndroidManifest.xml:9:13-90
+30-->[:flutter_inappwebview] C:\Users\Joker.Law\Desktop\projectcode2\build\flutter_inappwebview\intermediates\library_manifest\debug\AndroidManifest.xml:9:21-87
+31        </intent>
+32    </queries> <!-- Required -->
+33    <permission
+33-->[cn.jiguang.sdk:jpush:4.7.2] C:\Users\Joker.Law\.gradle\caches\transforms-2\files-2.1\8be2f6271620b73bf42d7813aa485529\jetified-jpush-4.7.2\AndroidManifest.xml:11:5-13:47
+34        android:name="com.xiaofeng.parking.permission.JPUSH_MESSAGE"
+34-->[cn.jiguang.sdk:jpush:4.7.2] C:\Users\Joker.Law\.gradle\caches\transforms-2\files-2.1\8be2f6271620b73bf42d7813aa485529\jetified-jpush-4.7.2\AndroidManifest.xml:12:9-65
+35        android:protectionLevel="signature" /> <!-- Required  一些系统要求的权限，如访问网络等 -->
+35-->[cn.jiguang.sdk:jpush:4.7.2] C:\Users\Joker.Law\.gradle\caches\transforms-2\files-2.1\8be2f6271620b73bf42d7813aa485529\jetified-jpush-4.7.2\AndroidManifest.xml:13:9-44
+36    <uses-permission android:name="com.xiaofeng.parking.permission.JPUSH_MESSAGE" />
+36-->[cn.jiguang.sdk:jpush:4.7.2] C:\Users\Joker.Law\.gradle\caches\transforms-2\files-2.1\8be2f6271620b73bf42d7813aa485529\jetified-jpush-4.7.2\AndroidManifest.xml:16:5-81
+36-->[cn.jiguang.sdk:jpush:4.7.2] C:\Users\Joker.Law\.gradle\caches\transforms-2\files-2.1\8be2f6271620b73bf42d7813aa485529\jetified-jpush-4.7.2\AndroidManifest.xml:16:22-78
+37    <uses-permission android:name="android.permission.WRITE_SETTINGS" />
+37-->[cn.jiguang.sdk:jpush:4.7.2] C:\Users\Joker.Law\.gradle\caches\transforms-2\files-2.1\8be2f6271620b73bf42d7813aa485529\jetified-jpush-4.7.2\AndroidManifest.xml:21:5-73
+37-->[cn.jiguang.sdk:jpush:4.7.2] C:\Users\Joker.Law\.gradle\caches\transforms-2\files-2.1\8be2f6271620b73bf42d7813aa485529\jetified-jpush-4.7.2\AndroidManifest.xml:21:22-70
+38    <uses-permission android:name="android.permission.MOUNT_UNMOUNT_FILESYSTEMS" /> <!-- vivo 角标 -->
+38-->[cn.jiguang.sdk:jpush:4.7.2] C:\Users\Joker.Law\.gradle\caches\transforms-2\files-2.1\8be2f6271620b73bf42d7813aa485529\jetified-jpush-4.7.2\AndroidManifest.xml:22:5-84
+38-->[cn.jiguang.sdk:jpush:4.7.2] C:\Users\Joker.Law\.gradle\caches\transforms-2\files-2.1\8be2f6271620b73bf42d7813aa485529\jetified-jpush-4.7.2\AndroidManifest.xml:22:22-81
+39    <uses-permission android:name="com.vivo.notification.permission.BADGE_ICON" /> <!-- Optional for location -->
+39-->[cn.jiguang.sdk:jpush:4.7.2] C:\Users\Joker.Law\.gradle\caches\transforms-2\files-2.1\8be2f6271620b73bf42d7813aa485529\jetified-jpush-4.7.2\AndroidManifest.xml:29:5-83
+39-->[cn.jiguang.sdk:jpush:4.7.2] C:\Users\Joker.Law\.gradle\caches\transforms-2\files-2.1\8be2f6271620b73bf42d7813aa485529\jetified-jpush-4.7.2\AndroidManifest.xml:29:22-80
+40    <uses-permission android:name="android.permission.VIBRATE" />
+40-->[cn.jiguang.sdk:jpush:4.7.2] C:\Users\Joker.Law\.gradle\caches\transforms-2\files-2.1\8be2f6271620b73bf42d7813aa485529\jetified-jpush-4.7.2\AndroidManifest.xml:32:5-66
+40-->[cn.jiguang.sdk:jpush:4.7.2] C:\Users\Joker.Law\.gradle\caches\transforms-2\files-2.1\8be2f6271620b73bf42d7813aa485529\jetified-jpush-4.7.2\AndroidManifest.xml:32:22-63
+41    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" /> <!-- Android Q后台定位权限 -->
+41-->[cn.jiguang.sdk:jpush:4.7.2] C:\Users\Joker.Law\.gradle\caches\transforms-2\files-2.1\8be2f6271620b73bf42d7813aa485529\jetified-jpush-4.7.2\AndroidManifest.xml:33:5-78
+41-->[cn.jiguang.sdk:jpush:4.7.2] C:\Users\Joker.Law\.gradle\caches\transforms-2\files-2.1\8be2f6271620b73bf42d7813aa485529\jetified-jpush-4.7.2\AndroidManifest.xml:33:22-75
+42    <uses-permission android:name="android.permission.ACCESS_LOCATION_EXTRA_COMMANDS" />
+42-->[cn.jiguang.sdk:jpush:4.7.2] C:\Users\Joker.Law\.gradle\caches\transforms-2\files-2.1\8be2f6271620b73bf42d7813aa485529\jetified-jpush-4.7.2\AndroidManifest.xml:37:5-89
+42-->[cn.jiguang.sdk:jpush:4.7.2] C:\Users\Joker.Law\.gradle\caches\transforms-2\files-2.1\8be2f6271620b73bf42d7813aa485529\jetified-jpush-4.7.2\AndroidManifest.xml:37:22-86
+43    <uses-permission android:name="android.permission.GET_TASKS" />
+43-->[cn.jiguang.sdk:jpush:4.7.2] C:\Users\Joker.Law\.gradle\caches\transforms-2\files-2.1\8be2f6271620b73bf42d7813aa485529\jetified-jpush-4.7.2\AndroidManifest.xml:38:5-68
+43-->[cn.jiguang.sdk:jpush:4.7.2] C:\Users\Joker.Law\.gradle\caches\transforms-2\files-2.1\8be2f6271620b73bf42d7813aa485529\jetified-jpush-4.7.2\AndroidManifest.xml:38:22-65
+44    <uses-permission android:name="android.permission.QUERY_ALL_PACKAGES" />
+44-->[cn.jiguang.sdk:jpush:4.7.2] C:\Users\Joker.Law\.gradle\caches\transforms-2\files-2.1\8be2f6271620b73bf42d7813aa485529\jetified-jpush-4.7.2\AndroidManifest.xml:39:5-77
+44-->[cn.jiguang.sdk:jpush:4.7.2] C:\Users\Joker.Law\.gradle\caches\transforms-2\files-2.1\8be2f6271620b73bf42d7813aa485529\jetified-jpush-4.7.2\AndroidManifest.xml:39:22-74
+45    <uses-permission android:name="android.permission.REQUEST_INSTALL_PACKAGES" />
+45-->[cn.jiguang.sdk:jpush:4.7.2] C:\Users\Joker.Law\.gradle\caches\transforms-2\files-2.1\8be2f6271620b73bf42d7813aa485529\jetified-jpush-4.7.2\AndroidManifest.xml:40:5-83
+45-->[cn.jiguang.sdk:jpush:4.7.2] C:\Users\Joker.Law\.gradle\caches\transforms-2\files-2.1\8be2f6271620b73bf42d7813aa485529\jetified-jpush-4.7.2\AndroidManifest.xml:40:22-80
+46
+47    <application
+47-->C:\Users\Joker.Law\Desktop\projectcode2\android\app\src\main\AndroidManifest.xml:3:4-35:19
+48        android:name="androidx.multidex.MultiDexApplication"
+49        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+49-->[androidx.core:core:1.8.0] C:\Users\Joker.Law\.gradle\caches\transforms-2\files-2.1\8e86e615f21ac3758e97e94e18045107\core-1.8.0\AndroidManifest.xml:24:18-86
+50        android:debuggable="true"
+51        android:icon="@mipmap/ic_launcher"
+51-->C:\Users\Joker.Law\Desktop\projectcode2\android\app\src\main\AndroidManifest.xml:8:9-43
+52        android:label="Film"
+52-->C:\Users\Joker.Law\Desktop\projectcode2\android\app\src\main\AndroidManifest.xml:4:9-29
+53        android:networkSecurityConfig="@xml/network_security_config"
+53-->C:\Users\Joker.Law\Desktop\projectcode2\android\app\src\main\AndroidManifest.xml:7:9-69
+54        android:requestLegacyExternalStorage="true"
+54-->C:\Users\Joker.Law\Desktop\projectcode2\android\app\src\main\AndroidManifest.xml:5:9-52
+55        android:usesCleartextTraffic="true" >
+55-->C:\Users\Joker.Law\Desktop\projectcode2\android\app\src\main\AndroidManifest.xml:6:9-44
+56        <activity
+56-->C:\Users\Joker.Law\Desktop\projectcode2\android\app\src\main\AndroidManifest.xml:9:9-29:20
+57            android:name="com.example.wan_new.MainActivity"
+57-->C:\Users\Joker.Law\Desktop\projectcode2\android\app\src\main\AndroidManifest.xml:10:13-60
+58            android:configChanges="orientation|keyboardHidden|keyboard|screenSize|smallestScreenSize|locale|layoutDirection|fontScale|screenLayout|density|uiMode"
+58-->C:\Users\Joker.Law\Desktop\projectcode2\android\app\src\main\AndroidManifest.xml:14:13-163
+59            android:exported="true"
+59-->C:\Users\Joker.Law\Desktop\projectcode2\android\app\src\main\AndroidManifest.xml:11:13-36
+60            android:hardwareAccelerated="true"
+60-->C:\Users\Joker.Law\Desktop\projectcode2\android\app\src\main\AndroidManifest.xml:15:13-47
+61            android:launchMode="singleTop"
+61-->C:\Users\Joker.Law\Desktop\projectcode2\android\app\src\main\AndroidManifest.xml:12:13-43
+62            android:theme="@style/LaunchTheme"
+62-->C:\Users\Joker.Law\Desktop\projectcode2\android\app\src\main\AndroidManifest.xml:13:13-47
+63            android:windowSoftInputMode="adjustResize" >
+63-->C:\Users\Joker.Law\Desktop\projectcode2\android\app\src\main\AndroidManifest.xml:16:13-55
+64
+65            <!--
+66                 Specifies an Android theme to apply to this Activity as soon as
+67                 the Android process has started. This theme is visible to the user
+68                 while the Flutter UI initializes. After that, this theme continues
+69                 to determine the Window background behind the Flutter UI.
+70            -->
+71            <meta-data
+71-->C:\Users\Joker.Law\Desktop\projectcode2\android\app\src\main\AndroidManifest.xml:21:13-24:17
+72                android:name="io.flutter.embedding.android.NormalTheme"
+72-->C:\Users\Joker.Law\Desktop\projectcode2\android\app\src\main\AndroidManifest.xml:22:15-70
+73                android:resource="@style/NormalTheme" />
+73-->C:\Users\Joker.Law\Desktop\projectcode2\android\app\src\main\AndroidManifest.xml:23:15-52
+74
+75            <intent-filter>
+75-->C:\Users\Joker.Law\Desktop\projectcode2\android\app\src\main\AndroidManifest.xml:25:13-28:29
+76                <action android:name="android.intent.action.MAIN" />
+76-->C:\Users\Joker.Law\Desktop\projectcode2\android\app\src\main\AndroidManifest.xml:26:17-68
+76-->C:\Users\Joker.Law\Desktop\projectcode2\android\app\src\main\AndroidManifest.xml:26:25-66
+77
+78                <category android:name="android.intent.category.LAUNCHER" />
+78-->C:\Users\Joker.Law\Desktop\projectcode2\android\app\src\main\AndroidManifest.xml:27:17-76
+78-->C:\Users\Joker.Law\Desktop\projectcode2\android\app\src\main\AndroidManifest.xml:27:27-74
+79            </intent-filter>
+80        </activity>
+81        <!--
+82             Don't delete the meta-data below.
+83             This is used by the Flutter tool to generate GeneratedPluginRegistrant.java
+84        -->
+85        <meta-data
+85-->C:\Users\Joker.Law\Desktop\projectcode2\android\app\src\main\AndroidManifest.xml:32:9-34:33
+86            android:name="flutterEmbedding"
+86-->C:\Users\Joker.Law\Desktop\projectcode2\android\app\src\main\AndroidManifest.xml:33:13-44
+87            android:value="2" />
+87-->C:\Users\Joker.Law\Desktop\projectcode2\android\app\src\main\AndroidManifest.xml:34:13-30
+88
+89        <service
+89-->[:cloud_firestore] C:\Users\Joker.Law\Desktop\projectcode2\build\cloud_firestore\intermediates\library_manifest\debug\AndroidManifest.xml:8:9-12:19
+90            android:name="com.google.firebase.components.ComponentDiscoveryService"
+90-->[:cloud_firestore] C:\Users\Joker.Law\Desktop\projectcode2\build\cloud_firestore\intermediates\library_manifest\debug\AndroidManifest.xml:8:18-89
+91            android:directBootAware="true"
+91-->[com.google.firebase:firebase-common:20.3.2] C:\Users\Joker.Law\.gradle\caches\transforms-2\files-2.1\e58e90b56f19eaf841768fe37fb3ec20\jetified-firebase-common-20.3.2\AndroidManifest.xml:34:13-43
+92            android:exported="false" >
+92-->[com.google.firebase:firebase-firestore:24.4.5] C:\Users\Joker.Law\.gradle\caches\transforms-2\files-2.1\e3e3fc51967619327e0a707b35cd7a22\jetified-firebase-firestore-24.4.5\AndroidManifest.xml:18:13-37
+93            <meta-data
+93-->[:cloud_firestore] C:\Users\Joker.Law\Desktop\projectcode2\build\cloud_firestore\intermediates\library_manifest\debug\AndroidManifest.xml:9:13-11:85
+94                android:name="com.google.firebase.components:io.flutter.plugins.firebase.firestore.FlutterFirebaseFirestoreRegistrar"
+94-->[:cloud_firestore] C:\Users\Joker.Law\Desktop\projectcode2\build\cloud_firestore\intermediates\library_manifest\debug\AndroidManifest.xml:10:17-134
+95                android:value="com.google.firebase.components.ComponentRegistrar" />
+95-->[:cloud_firestore] C:\Users\Joker.Law\Desktop\projectcode2\build\cloud_firestore\intermediates\library_manifest\debug\AndroidManifest.xml:11:17-82
+96            <meta-data
+96-->[:firebase_core] C:\Users\Joker.Law\Desktop\projectcode2\build\firebase_core\intermediates\library_manifest\debug\AndroidManifest.xml:9:13-11:85
+97                android:name="com.google.firebase.components:io.flutter.plugins.firebase.core.FlutterFirebaseCoreRegistrar"
+97-->[:firebase_core] C:\Users\Joker.Law\Desktop\projectcode2\build\firebase_core\intermediates\library_manifest\debug\AndroidManifest.xml:10:17-124
+98                android:value="com.google.firebase.components.ComponentRegistrar" />
+98-->[:firebase_core] C:\Users\Joker.Law\Desktop\projectcode2\build\firebase_core\intermediates\library_manifest\debug\AndroidManifest.xml:11:17-82
+99            <meta-data
+99-->[com.google.firebase:firebase-firestore:24.4.5] C:\Users\Joker.Law\.gradle\caches\transforms-2\files-2.1\e3e3fc51967619327e0a707b35cd7a22\jetified-firebase-firestore-24.4.5\AndroidManifest.xml:19:13-21:85
+100                android:name="com.google.firebase.components:com.google.firebase.firestore.FirestoreRegistrar"
+100-->[com.google.firebase:firebase-firestore:24.4.5] C:\Users\Joker.Law\.gradle\caches\transforms-2\files-2.1\e3e3fc51967619327e0a707b35cd7a22\jetified-firebase-firestore-24.4.5\AndroidManifest.xml:20:17-111
+101                android:value="com.google.firebase.components.ComponentRegistrar" />
+101-->[com.google.firebase:firebase-firestore:24.4.5] C:\Users\Joker.Law\.gradle\caches\transforms-2\files-2.1\e3e3fc51967619327e0a707b35cd7a22\jetified-firebase-firestore-24.4.5\AndroidManifest.xml:21:17-82
+102        </service>
+103        <service
+103-->[:geolocator_android] C:\Users\Joker.Law\Desktop\projectcode2\build\geolocator_android\intermediates\library_manifest\debug\AndroidManifest.xml:10:9-14:56
+104            android:name="com.baseflow.geolocator.GeolocatorLocationService"
+104-->[:geolocator_android] C:\Users\Joker.Law\Desktop\projectcode2\build\geolocator_android\intermediates\library_manifest\debug\AndroidManifest.xml:11:13-77
+105            android:enabled="true"
+105-->[:geolocator_android] C:\Users\Joker.Law\Desktop\projectcode2\build\geolocator_android\intermediates\library_manifest\debug\AndroidManifest.xml:12:13-35
+106            android:exported="false"
+106-->[:geolocator_android] C:\Users\Joker.Law\Desktop\projectcode2\build\geolocator_android\intermediates\library_manifest\debug\AndroidManifest.xml:13:13-37
+107            android:foregroundServiceType="location" />
+107-->[:geolocator_android] C:\Users\Joker.Law\Desktop\projectcode2\build\geolocator_android\intermediates\library_manifest\debug\AndroidManifest.xml:14:13-53
+108
+109        <provider
+109-->[:image_picker_android] C:\Users\Joker.Law\Desktop\projectcode2\build\image_picker_android\intermediates\library_manifest\debug\AndroidManifest.xml:8:9-16:20
+110            android:name="io.flutter.plugins.imagepicker.ImagePickerFileProvider"
+110-->[:image_picker_android] C:\Users\Joker.Law\Desktop\projectcode2\build\image_picker_android\intermediates\library_manifest\debug\AndroidManifest.xml:9:13-82
+111            android:authorities="com.xiaofeng.parking.flutter.image_provider"
+111-->[:image_picker_android] C:\Users\Joker.Law\Desktop\projectcode2\build\image_picker_android\intermediates\library_manifest\debug\AndroidManifest.xml:10:13-74
+112            android:exported="false"
+112-->[:image_picker_android] C:\Users\Joker.Law\Desktop\projectcode2\build\image_picker_android\intermediates\library_manifest\debug\AndroidManifest.xml:11:13-37
+113            android:grantUriPermissions="true" >
+113-->[:image_picker_android] C:\Users\Joker.Law\Desktop\projectcode2\build\image_picker_android\intermediates\library_manifest\debug\AndroidManifest.xml:12:13-47
+114            <meta-data
+114-->[:image_picker_android] C:\Users\Joker.Law\Desktop\projectcode2\build\image_picker_android\intermediates\library_manifest\debug\AndroidManifest.xml:13:13-15:75
+115                android:name="android.support.FILE_PROVIDER_PATHS"
+115-->[:image_picker_android] C:\Users\Joker.Law\Desktop\projectcode2\build\image_picker_android\intermediates\library_manifest\debug\AndroidManifest.xml:14:17-67
+116                android:resource="@xml/flutter_image_picker_file_paths" />
+116-->[:image_picker_android] C:\Users\Joker.Law\Desktop\projectcode2\build\image_picker_android\intermediates\library_manifest\debug\AndroidManifest.xml:15:17-72
+117        </provider>
+118
+119        <receiver
+119-->[:jpush_flutter] C:\Users\Joker.Law\Desktop\projectcode2\build\jpush_flutter\intermediates\library_manifest\debug\AndroidManifest.xml:10:9-24:20
+120            android:name="com.jiguang.jpush.JPushPlugin$JPushReceiver"
+120-->[:jpush_flutter] C:\Users\Joker.Law\Desktop\projectcode2\build\jpush_flutter\intermediates\library_manifest\debug\AndroidManifest.xml:11:13-71
+121            android:enabled="true"
+121-->[:jpush_flutter] C:\Users\Joker.Law\Desktop\projectcode2\build\jpush_flutter\intermediates\library_manifest\debug\AndroidManifest.xml:12:13-35
+122            android:exported="false" >
+122-->[:jpush_flutter] C:\Users\Joker.Law\Desktop\projectcode2\build\jpush_flutter\intermediates\library_manifest\debug\AndroidManifest.xml:13:13-37
+123            <intent-filter>
+123-->[:jpush_flutter] C:\Users\Joker.Law\Desktop\projectcode2\build\jpush_flutter\intermediates\library_manifest\debug\AndroidManifest.xml:14:13-23:29
+124                <action android:name="cn.jpush.android.intent.REGISTRATION" />
+124-->[:jpush_flutter] C:\Users\Joker.Law\Desktop\projectcode2\build\jpush_flutter\intermediates\library_manifest\debug\AndroidManifest.xml:15:17-79
+124-->[:jpush_flutter] C:\Users\Joker.Law\Desktop\projectcode2\build\jpush_flutter\intermediates\library_manifest\debug\AndroidManifest.xml:15:25-76
+125                <action android:name="cn.jpush.android.intent.MESSAGE_RECEIVED" />
+125-->[:jpush_flutter] C:\Users\Joker.Law\Desktop\projectcode2\build\jpush_flutter\intermediates\library_manifest\debug\AndroidManifest.xml:16:17-83
+125-->[:jpush_flutter] C:\Users\Joker.Law\Desktop\projectcode2\build\jpush_flutter\intermediates\library_manifest\debug\AndroidManifest.xml:16:25-80
+126                <action android:name="cn.jpush.android.intent.NOTIFICATION_RECEIVED" />
+126-->[:jpush_flutter] C:\Users\Joker.Law\Desktop\projectcode2\build\jpush_flutter\intermediates\library_manifest\debug\AndroidManifest.xml:17:17-88
+126-->[:jpush_flutter] C:\Users\Joker.Law\Desktop\projectcode2\build\jpush_flutter\intermediates\library_manifest\debug\AndroidManifest.xml:17:25-85
+127                <action android:name="cn.jpush.android.intent.NOTIFICATION_OPENED" />
+127-->[:jpush_flutter] C:\Users\Joker.Law\Desktop\projectcode2\build\jpush_flutter\intermediates\library_manifest\debug\AndroidManifest.xml:18:17-86
+127-->[:jpush_flutter] C:\Users\Joker.Law\Desktop\projectcode2\build\jpush_flutter\intermediates\library_manifest\debug\AndroidManifest.xml:18:25-83
+128                <action android:name="cn.jpush.android.intent.NOTIFICATION_CLICK_ACTION" />
+128-->[:jpush_flutter] C:\Users\Joker.Law\Desktop\projectcode2\build\jpush_flutter\intermediates\library_manifest\debug\AndroidManifest.xml:19:17-92
+128-->[:jpush_flutter] C:\Users\Joker.Law\Desktop\projectcode2\build\jpush_flutter\intermediates\library_manifest\debug\AndroidManifest.xml:19:25-89
+129                <action android:name="cn.jpush.android.intent.CONNECTION" />
+129-->[:jpush_flutter] C:\Users\Joker.Law\Desktop\projectcode2\build\jpush_flutter\intermediates\library_manifest\debug\AndroidManifest.xml:20:17-77
+129-->[:jpush_flutter] C:\Users\Joker.Law\Desktop\projectcode2\build\jpush_flutter\intermediates\library_manifest\debug\AndroidManifest.xml:20:25-74
+130
+131                <category android:name="com.xiaofeng.parking" />
+131-->[:jpush_flutter] C:\Users\Joker.Law\Desktop\projectcode2\build\jpush_flutter\intermediates\library_manifest\debug\AndroidManifest.xml:22:17-61
+131-->[:jpush_flutter] C:\Users\Joker.Law\Desktop\projectcode2\build\jpush_flutter\intermediates\library_manifest\debug\AndroidManifest.xml:22:27-58
+132            </intent-filter>
+133        </receiver>
+134        <receiver
+134-->[:jpush_flutter] C:\Users\Joker.Law\Desktop\projectcode2\build\jpush_flutter\intermediates\library_manifest\debug\AndroidManifest.xml:25:9-33:20
+135            android:name="com.jiguang.jpush.JPushEventReceiver"
+135-->[:jpush_flutter] C:\Users\Joker.Law\Desktop\projectcode2\build\jpush_flutter\intermediates\library_manifest\debug\AndroidManifest.xml:26:13-64
+136            android:exported="false" >
+136-->[:jpush_flutter] C:\Users\Joker.Law\Desktop\projectcode2\build\jpush_flutter\intermediates\library_manifest\debug\AndroidManifest.xml:27:13-37
+137            <intent-filter>
+137-->[:jpush_flutter] C:\Users\Joker.Law\Desktop\projectcode2\build\jpush_flutter\intermediates\library_manifest\debug\AndroidManifest.xml:28:13-32:29
+138                <action android:name="cn.jpush.android.intent.RECEIVE_MESSAGE" />
+138-->[:jpush_flutter] C:\Users\Joker.Law\Desktop\projectcode2\build\jpush_flutter\intermediates\library_manifest\debug\AndroidManifest.xml:29:17-82
+138-->[:jpush_flutter] C:\Users\Joker.Law\Desktop\projectcode2\build\jpush_flutter\intermediates\library_manifest\debug\AndroidManifest.xml:29:25-79
+139
+140                <category android:name="com.xiaofeng.parking" />
+140-->[:jpush_flutter] C:\Users\Joker.Law\Desktop\projectcode2\build\jpush_flutter\intermediates\library_manifest\debug\AndroidManifest.xml:22:17-61
+140-->[:jpush_flutter] C:\Users\Joker.Law\Desktop\projectcode2\build\jpush_flutter\intermediates\library_manifest\debug\AndroidManifest.xml:22:27-58
+141            </intent-filter>
+142        </receiver> <!-- Since JCore2.0.0 Required SDK核心功能 -->
+143        <!-- 可配置android:process参数将Service放在其他进程中；android:enabled属性不能是false -->
+144        <!-- 这个是自定义Service，要继承极光JCommonService，可以在更多手机平台上使得推送通道保持的更稳定 -->
+145        <service
+145-->[:jpush_flutter] C:\Users\Joker.Law\Desktop\projectcode2\build\jpush_flutter\intermediates\library_manifest\debug\AndroidManifest.xml:37:9-45:19
+146            android:name="com.jiguang.jpush.JPushCustomService"
+146-->[:jpush_flutter] C:\Users\Joker.Law\Desktop\projectcode2\build\jpush_flutter\intermediates\library_manifest\debug\AndroidManifest.xml:38:13-64
+147            android:enabled="true"
+147-->[:jpush_flutter] C:\Users\Joker.Law\Desktop\projectcode2\build\jpush_flutter\intermediates\library_manifest\debug\AndroidManifest.xml:39:13-35
+148            android:exported="false"
+148-->[:jpush_flutter] C:\Users\Joker.Law\Desktop\projectcode2\build\jpush_flutter\intermediates\library_manifest\debug\AndroidManifest.xml:40:13-37
+149            android:process=":pushcore" >
+149-->[:jpush_flutter] C:\Users\Joker.Law\Desktop\projectcode2\build\jpush_flutter\intermediates\library_manifest\debug\AndroidManifest.xml:41:13-40
+150            <intent-filter>
+150-->[:jpush_flutter] C:\Users\Joker.Law\Desktop\projectcode2\build\jpush_flutter\intermediates\library_manifest\debug\AndroidManifest.xml:42:13-44:29
+151                <action android:name="cn.jiguang.user.service.action" />
+151-->[:jpush_flutter] C:\Users\Joker.Law\Desktop\projectcode2\build\jpush_flutter\intermediates\library_manifest\debug\AndroidManifest.xml:43:17-73
+151-->[:jpush_flutter] C:\Users\Joker.Law\Desktop\projectcode2\build\jpush_flutter\intermediates\library_manifest\debug\AndroidManifest.xml:43:25-70
+152            </intent-filter>
+153        </service>
+154
+155        <activity
+155-->[:flutter_inappwebview] C:\Users\Joker.Law\Desktop\projectcode2\build\flutter_inappwebview\intermediates\library_manifest\debug\AndroidManifest.xml:14:9-18:47
+156            android:name="com.pichillilorenzo.flutter_inappwebview.in_app_browser.InAppBrowserActivity"
+156-->[:flutter_inappwebview] C:\Users\Joker.Law\Desktop\projectcode2\build\flutter_inappwebview\intermediates\library_manifest\debug\AndroidManifest.xml:15:13-104
+157            android:configChanges="orientation|keyboardHidden|keyboard|screenSize|locale|layoutDirection|fontScale|screenLayout|density"
+157-->[:flutter_inappwebview] C:\Users\Joker.Law\Desktop\projectcode2\build\flutter_inappwebview\intermediates\library_manifest\debug\AndroidManifest.xml:16:13-137
+158            android:exported="true"
+158-->[:flutter_inappwebview] C:\Users\Joker.Law\Desktop\projectcode2\build\flutter_inappwebview\intermediates\library_manifest\debug\AndroidManifest.xml:17:13-36
+159            android:theme="@style/AppTheme" />
+159-->[:flutter_inappwebview] C:\Users\Joker.Law\Desktop\projectcode2\build\flutter_inappwebview\intermediates\library_manifest\debug\AndroidManifest.xml:18:13-44
+160        <activity
+160-->[:flutter_inappwebview] C:\Users\Joker.Law\Desktop\projectcode2\build\flutter_inappwebview\intermediates\library_manifest\debug\AndroidManifest.xml:19:9-22:55
+161            android:name="com.pichillilorenzo.flutter_inappwebview.chrome_custom_tabs.ChromeCustomTabsActivity"
+161-->[:flutter_inappwebview] C:\Users\Joker.Law\Desktop\projectcode2\build\flutter_inappwebview\intermediates\library_manifest\debug\AndroidManifest.xml:20:13-112
+162            android:exported="true"
+162-->[:flutter_inappwebview] C:\Users\Joker.Law\Desktop\projectcode2\build\flutter_inappwebview\intermediates\library_manifest\debug\AndroidManifest.xml:21:13-36
+163            android:theme="@style/ThemeTransparent" />
+163-->[:flutter_inappwebview] C:\Users\Joker.Law\Desktop\projectcode2\build\flutter_inappwebview\intermediates\library_manifest\debug\AndroidManifest.xml:22:13-52
+164        <activity
+164-->[:flutter_inappwebview] C:\Users\Joker.Law\Desktop\projectcode2\build\flutter_inappwebview\intermediates\library_manifest\debug\AndroidManifest.xml:23:9-26:55
+165            android:name="com.pichillilorenzo.flutter_inappwebview.chrome_custom_tabs.TrustedWebActivity"
+165-->[:flutter_inappwebview] C:\Users\Joker.Law\Desktop\projectcode2\build\flutter_inappwebview\intermediates\library_manifest\debug\AndroidManifest.xml:24:13-106
+166            android:exported="true"
+166-->[:flutter_inappwebview] C:\Users\Joker.Law\Desktop\projectcode2\build\flutter_inappwebview\intermediates\library_manifest\debug\AndroidManifest.xml:25:13-36
+167            android:theme="@style/ThemeTransparent" />
+167-->[:flutter_inappwebview] C:\Users\Joker.Law\Desktop\projectcode2\build\flutter_inappwebview\intermediates\library_manifest\debug\AndroidManifest.xml:26:13-52
+168        <activity
+168-->[:flutter_inappwebview] C:\Users\Joker.Law\Desktop\projectcode2\build\flutter_inappwebview\intermediates\library_manifest\debug\AndroidManifest.xml:27:9-31:55
+169            android:name="com.pichillilorenzo.flutter_inappwebview.chrome_custom_tabs.ChromeCustomTabsActivitySingleInstance"
+169-->[:flutter_inappwebview] C:\Users\Joker.Law\Desktop\projectcode2\build\flutter_inappwebview\intermediates\library_manifest\debug\AndroidManifest.xml:28:13-126
+170            android:exported="true"
+170-->[:flutter_inappwebview] C:\Users\Joker.Law\Desktop\projectcode2\build\flutter_inappwebview\intermediates\library_manifest\debug\AndroidManifest.xml:29:13-36
+171            android:launchMode="singleInstance"
+171-->[:flutter_inappwebview] C:\Users\Joker.Law\Desktop\projectcode2\build\flutter_inappwebview\intermediates\library_manifest\debug\AndroidManifest.xml:30:13-48
+172            android:theme="@style/ThemeTransparent" />
+172-->[:flutter_inappwebview] C:\Users\Joker.Law\Desktop\projectcode2\build\flutter_inappwebview\intermediates\library_manifest\debug\AndroidManifest.xml:31:13-52
+173        <activity
+173-->[:flutter_inappwebview] C:\Users\Joker.Law\Desktop\projectcode2\build\flutter_inappwebview\intermediates\library_manifest\debug\AndroidManifest.xml:32:9-36:55
+174            android:name="com.pichillilorenzo.flutter_inappwebview.chrome_custom_tabs.TrustedWebActivitySingleInstance"
+174-->[:flutter_inappwebview] C:\Users\Joker.Law\Desktop\projectcode2\build\flutter_inappwebview\intermediates\library_manifest\debug\AndroidManifest.xml:33:13-120
+175            android:exported="true"
+175-->[:flutter_inappwebview] C:\Users\Joker.Law\Desktop\projectcode2\build\flutter_inappwebview\intermediates\library_manifest\debug\AndroidManifest.xml:34:13-36
+176            android:launchMode="singleInstance"
+176-->[:flutter_inappwebview] C:\Users\Joker.Law\Desktop\projectcode2\build\flutter_inappwebview\intermediates\library_manifest\debug\AndroidManifest.xml:35:13-48
+177            android:theme="@style/ThemeTransparent" />
+177-->[:flutter_inappwebview] C:\Users\Joker.Law\Desktop\projectcode2\build\flutter_inappwebview\intermediates\library_manifest\debug\AndroidManifest.xml:36:13-52
+178
+179        <receiver
+179-->[:flutter_inappwebview] C:\Users\Joker.Law\Desktop\projectcode2\build\flutter_inappwebview\intermediates\library_manifest\debug\AndroidManifest.xml:38:9-41:40
+180            android:name="com.pichillilorenzo.flutter_inappwebview.chrome_custom_tabs.ActionBroadcastReceiver"
+180-->[:flutter_inappwebview] C:\Users\Joker.Law\Desktop\projectcode2\build\flutter_inappwebview\intermediates\library_manifest\debug\AndroidManifest.xml:39:13-111
+181            android:enabled="true"
+181-->[:flutter_inappwebview] C:\Users\Joker.Law\Desktop\projectcode2\build\flutter_inappwebview\intermediates\library_manifest\debug\AndroidManifest.xml:40:13-35
+182            android:exported="false" />
+182-->[:flutter_inappwebview] C:\Users\Joker.Law\Desktop\projectcode2\build\flutter_inappwebview\intermediates\library_manifest\debug\AndroidManifest.xml:41:13-37
+183
+184        <meta-data
+184-->[:flutter_inappwebview] C:\Users\Joker.Law\Desktop\projectcode2\build\flutter_inappwebview\intermediates\library_manifest\debug\AndroidManifest.xml:43:9-45:36
+185            android:name="io.flutter.embedded_views_preview"
+185-->[:flutter_inappwebview] C:\Users\Joker.Law\Desktop\projectcode2\build\flutter_inappwebview\intermediates\library_manifest\debug\AndroidManifest.xml:44:13-61
+186            android:value="true" />
+186-->[:flutter_inappwebview] C:\Users\Joker.Law\Desktop\projectcode2\build\flutter_inappwebview\intermediates\library_manifest\debug\AndroidManifest.xml:45:13-33
+187
+188        <uses-library
+188-->[androidx.window:window:1.0.0-beta04] C:\Users\Joker.Law\.gradle\caches\transforms-2\files-2.1\03c633e46d75bfb21f082f0417f55161\jetified-window-1.0.0-beta04\AndroidManifest.xml:25:9-27:40
+189            android:name="androidx.window.extensions"
+189-->[androidx.window:window:1.0.0-beta04] C:\Users\Joker.Law\.gradle\caches\transforms-2\files-2.1\03c633e46d75bfb21f082f0417f55161\jetified-window-1.0.0-beta04\AndroidManifest.xml:26:13-54
+190            android:required="false" />
+190-->[androidx.window:window:1.0.0-beta04] C:\Users\Joker.Law\.gradle\caches\transforms-2\files-2.1\03c633e46d75bfb21f082f0417f55161\jetified-window-1.0.0-beta04\AndroidManifest.xml:27:13-37
+191        <uses-library
+191-->[androidx.window:window:1.0.0-beta04] C:\Users\Joker.Law\.gradle\caches\transforms-2\files-2.1\03c633e46d75bfb21f082f0417f55161\jetified-window-1.0.0-beta04\AndroidManifest.xml:28:9-30:40
+192            android:name="androidx.window.sidecar"
+192-->[androidx.window:window:1.0.0-beta04] C:\Users\Joker.Law\.gradle\caches\transforms-2\files-2.1\03c633e46d75bfb21f082f0417f55161\jetified-window-1.0.0-beta04\AndroidManifest.xml:29:13-51
+193            android:required="false" />
+193-->[androidx.window:window:1.0.0-beta04] C:\Users\Joker.Law\.gradle\caches\transforms-2\files-2.1\03c633e46d75bfb21f082f0417f55161\jetified-window-1.0.0-beta04\AndroidManifest.xml:30:13-37
+194
+195        <provider
+195-->[com.google.firebase:firebase-common:20.3.2] C:\Users\Joker.Law\.gradle\caches\transforms-2\files-2.1\e58e90b56f19eaf841768fe37fb3ec20\jetified-firebase-common-20.3.2\AndroidManifest.xml:25:9-30:39
+196            android:name="com.google.firebase.provider.FirebaseInitProvider"
+196-->[com.google.firebase:firebase-common:20.3.2] C:\Users\Joker.Law\.gradle\caches\transforms-2\files-2.1\e58e90b56f19eaf841768fe37fb3ec20\jetified-firebase-common-20.3.2\AndroidManifest.xml:26:13-77
+197            android:authorities="com.xiaofeng.parking.firebaseinitprovider"
+197-->[com.google.firebase:firebase-common:20.3.2] C:\Users\Joker.Law\.gradle\caches\transforms-2\files-2.1\e58e90b56f19eaf841768fe37fb3ec20\jetified-firebase-common-20.3.2\AndroidManifest.xml:27:13-72
+198            android:directBootAware="true"
+198-->[com.google.firebase:firebase-common:20.3.2] C:\Users\Joker.Law\.gradle\caches\transforms-2\files-2.1\e58e90b56f19eaf841768fe37fb3ec20\jetified-firebase-common-20.3.2\AndroidManifest.xml:28:13-43
+199            android:exported="false"
+199-->[com.google.firebase:firebase-common:20.3.2] C:\Users\Joker.Law\.gradle\caches\transforms-2\files-2.1\e58e90b56f19eaf841768fe37fb3ec20\jetified-firebase-common-20.3.2\AndroidManifest.xml:29:13-37
+200            android:initOrder="100" />
+200-->[com.google.firebase:firebase-common:20.3.2] C:\Users\Joker.Law\.gradle\caches\transforms-2\files-2.1\e58e90b56f19eaf841768fe37fb3ec20\jetified-firebase-common-20.3.2\AndroidManifest.xml:30:13-36
+201
+202        <activity
+202-->[com.google.android.gms:play-services-base:18.0.1] C:\Users\Joker.Law\.gradle\caches\transforms-2\files-2.1\642cc9e2632e586d1058ed231591ead4\jetified-play-services-base-18.0.1\AndroidManifest.xml:20:9-22:45
+203            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+203-->[com.google.android.gms:play-services-base:18.0.1] C:\Users\Joker.Law\.gradle\caches\transforms-2\files-2.1\642cc9e2632e586d1058ed231591ead4\jetified-play-services-base-18.0.1\AndroidManifest.xml:20:19-85
+204            android:exported="false"
+204-->[com.google.android.gms:play-services-base:18.0.1] C:\Users\Joker.Law\.gradle\caches\transforms-2\files-2.1\642cc9e2632e586d1058ed231591ead4\jetified-play-services-base-18.0.1\AndroidManifest.xml:22:19-43
+205            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+205-->[com.google.android.gms:play-services-base:18.0.1] C:\Users\Joker.Law\.gradle\caches\transforms-2\files-2.1\642cc9e2632e586d1058ed231591ead4\jetified-play-services-base-18.0.1\AndroidManifest.xml:21:19-78
+206
+207        <meta-data
+207-->[com.google.android.gms:play-services-basement:18.1.0] C:\Users\Joker.Law\.gradle\caches\transforms-2\files-2.1\0cdd8aceb5059ba1c457f63b9183d1a3\jetified-play-services-basement-18.1.0\AndroidManifest.xml:21:9-23:69
+208            android:name="com.google.android.gms.version"
+208-->[com.google.android.gms:play-services-basement:18.1.0] C:\Users\Joker.Law\.gradle\caches\transforms-2\files-2.1\0cdd8aceb5059ba1c457f63b9183d1a3\jetified-play-services-basement-18.1.0\AndroidManifest.xml:22:13-58
+209            android:value="@integer/google_play_services_version" />
+209-->[com.google.android.gms:play-services-basement:18.1.0] C:\Users\Joker.Law\.gradle\caches\transforms-2\files-2.1\0cdd8aceb5059ba1c457f63b9183d1a3\jetified-play-services-basement-18.1.0\AndroidManifest.xml:23:13-66
+210
+211        <provider
+211-->[androidx.emoji2:emoji2:1.0.0] C:\Users\Joker.Law\.gradle\caches\transforms-2\files-2.1\8d120aa649c2aed370574c7028952cac\jetified-emoji2-1.0.0\AndroidManifest.xml:26:9-34:20
+212            android:name="androidx.startup.InitializationProvider"
+212-->[androidx.emoji2:emoji2:1.0.0] C:\Users\Joker.Law\.gradle\caches\transforms-2\files-2.1\8d120aa649c2aed370574c7028952cac\jetified-emoji2-1.0.0\AndroidManifest.xml:27:13-67
+213            android:authorities="com.xiaofeng.parking.androidx-startup"
+213-->[androidx.emoji2:emoji2:1.0.0] C:\Users\Joker.Law\.gradle\caches\transforms-2\files-2.1\8d120aa649c2aed370574c7028952cac\jetified-emoji2-1.0.0\AndroidManifest.xml:28:13-68
+214            android:exported="false" >
+214-->[androidx.emoji2:emoji2:1.0.0] C:\Users\Joker.Law\.gradle\caches\transforms-2\files-2.1\8d120aa649c2aed370574c7028952cac\jetified-emoji2-1.0.0\AndroidManifest.xml:29:13-37
+215            <meta-data
+215-->[androidx.emoji2:emoji2:1.0.0] C:\Users\Joker.Law\.gradle\caches\transforms-2\files-2.1\8d120aa649c2aed370574c7028952cac\jetified-emoji2-1.0.0\AndroidManifest.xml:31:13-33:52
+216                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+216-->[androidx.emoji2:emoji2:1.0.0] C:\Users\Joker.Law\.gradle\caches\transforms-2\files-2.1\8d120aa649c2aed370574c7028952cac\jetified-emoji2-1.0.0\AndroidManifest.xml:32:17-75
+217                android:value="androidx.startup" />
+217-->[androidx.emoji2:emoji2:1.0.0] C:\Users\Joker.Law\.gradle\caches\transforms-2\files-2.1\8d120aa649c2aed370574c7028952cac\jetified-emoji2-1.0.0\AndroidManifest.xml:33:17-49
+218            <meta-data
+218-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\Joker.Law\.gradle\caches\transforms-2\files-2.1\2dd7e1e94a0e65810db6291100ebf315\jetified-lifecycle-process-2.4.0\AndroidManifest.xml:31:13-33:52
+219                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+219-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\Joker.Law\.gradle\caches\transforms-2\files-2.1\2dd7e1e94a0e65810db6291100ebf315\jetified-lifecycle-process-2.4.0\AndroidManifest.xml:32:17-78
+220                android:value="androidx.startup" />
+220-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\Joker.Law\.gradle\caches\transforms-2\files-2.1\2dd7e1e94a0e65810db6291100ebf315\jetified-lifecycle-process-2.4.0\AndroidManifest.xml:33:17-49
+221        </provider> <!-- Rich push 核心功能 since 2.0.6 -->
+222        <activity
+222-->[cn.jiguang.sdk:jpush:4.7.2] C:\Users\Joker.Law\.gradle\caches\transforms-2\files-2.1\8be2f6271620b73bf42d7813aa485529\jetified-jpush-4.7.2\AndroidManifest.xml:50:9-61:20
+223            android:name="cn.jpush.android.ui.PopWinActivity"
+223-->[cn.jiguang.sdk:jpush:4.7.2] C:\Users\Joker.Law\.gradle\caches\transforms-2\files-2.1\8be2f6271620b73bf42d7813aa485529\jetified-jpush-4.7.2\AndroidManifest.xml:51:13-62
+224            android:exported="true"
+224-->[cn.jiguang.sdk:jpush:4.7.2] C:\Users\Joker.Law\.gradle\caches\transforms-2\files-2.1\8be2f6271620b73bf42d7813aa485529\jetified-jpush-4.7.2\AndroidManifest.xml:52:13-36
+225            android:theme="@style/MyDialogStyle" >
+225-->[cn.jiguang.sdk:jpush:4.7.2] C:\Users\Joker.Law\.gradle\caches\transforms-2\files-2.1\8be2f6271620b73bf42d7813aa485529\jetified-jpush-4.7.2\AndroidManifest.xml:53:13-49
+226            <intent-filter>
+226-->[cn.jiguang.sdk:jpush:4.7.2] C:\Users\Joker.Law\.gradle\caches\transforms-2\files-2.1\8be2f6271620b73bf42d7813aa485529\jetified-jpush-4.7.2\AndroidManifest.xml:54:13-60:29
+227                <category android:name="android.intent.category.DEFAULT" />
+227-->[cn.jiguang.sdk:jpush:4.7.2] C:\Users\Joker.Law\.gradle\caches\transforms-2\files-2.1\8be2f6271620b73bf42d7813aa485529\jetified-jpush-4.7.2\AndroidManifest.xml:55:17-76
+227-->[cn.jiguang.sdk:jpush:4.7.2] C:\Users\Joker.Law\.gradle\caches\transforms-2\files-2.1\8be2f6271620b73bf42d7813aa485529\jetified-jpush-4.7.2\AndroidManifest.xml:55:27-73
+228
+229                <action android:name="cn.jpush.android.ui.PopWinActivity" />
+229-->[cn.jiguang.sdk:jpush:4.7.2] C:\Users\Joker.Law\.gradle\caches\transforms-2\files-2.1\8be2f6271620b73bf42d7813aa485529\jetified-jpush-4.7.2\AndroidManifest.xml:57:17-77
+229-->[cn.jiguang.sdk:jpush:4.7.2] C:\Users\Joker.Law\.gradle\caches\transforms-2\files-2.1\8be2f6271620b73bf42d7813aa485529\jetified-jpush-4.7.2\AndroidManifest.xml:57:25-74
+230
+231                <category android:name="com.xiaofeng.parking" />
+231-->[:jpush_flutter] C:\Users\Joker.Law\Desktop\projectcode2\build\jpush_flutter\intermediates\library_manifest\debug\AndroidManifest.xml:22:17-61
+231-->[:jpush_flutter] C:\Users\Joker.Law\Desktop\projectcode2\build\jpush_flutter\intermediates\library_manifest\debug\AndroidManifest.xml:22:27-58
+232            </intent-filter>
+233        </activity> <!-- Required SDK核心功能 -->
+234        <activity
+234-->[cn.jiguang.sdk:jpush:4.7.2] C:\Users\Joker.Law\.gradle\caches\transforms-2\files-2.1\8be2f6271620b73bf42d7813aa485529\jetified-jpush-4.7.2\AndroidManifest.xml:64:9-75:20
+235            android:name="cn.jpush.android.ui.PushActivity"
+235-->[cn.jiguang.sdk:jpush:4.7.2] C:\Users\Joker.Law\.gradle\caches\transforms-2\files-2.1\8be2f6271620b73bf42d7813aa485529\jetified-jpush-4.7.2\AndroidManifest.xml:65:13-60
+236            android:configChanges="orientation|keyboardHidden"
+236-->[cn.jiguang.sdk:jpush:4.7.2] C:\Users\Joker.Law\.gradle\caches\transforms-2\files-2.1\8be2f6271620b73bf42d7813aa485529\jetified-jpush-4.7.2\AndroidManifest.xml:66:13-63
+237            android:exported="true"
+237-->[cn.jiguang.sdk:jpush:4.7.2] C:\Users\Joker.Law\.gradle\caches\transforms-2\files-2.1\8be2f6271620b73bf42d7813aa485529\jetified-jpush-4.7.2\AndroidManifest.xml:67:13-36
+238            android:theme="@android:style/Theme.NoTitleBar" >
+238-->[cn.jiguang.sdk:jpush:4.7.2] C:\Users\Joker.Law\.gradle\caches\transforms-2\files-2.1\8be2f6271620b73bf42d7813aa485529\jetified-jpush-4.7.2\AndroidManifest.xml:68:13-60
+239            <intent-filter>
+239-->[cn.jiguang.sdk:jpush:4.7.2] C:\Users\Joker.Law\.gradle\caches\transforms-2\files-2.1\8be2f6271620b73bf42d7813aa485529\jetified-jpush-4.7.2\AndroidManifest.xml:69:13-74:29
+240                <action android:name="cn.jpush.android.ui.PushActivity" />
+240-->[cn.jiguang.sdk:jpush:4.7.2] C:\Users\Joker.Law\.gradle\caches\transforms-2\files-2.1\8be2f6271620b73bf42d7813aa485529\jetified-jpush-4.7.2\AndroidManifest.xml:70:17-75
+240-->[cn.jiguang.sdk:jpush:4.7.2] C:\Users\Joker.Law\.gradle\caches\transforms-2\files-2.1\8be2f6271620b73bf42d7813aa485529\jetified-jpush-4.7.2\AndroidManifest.xml:70:25-72
+241
+242                <category android:name="android.intent.category.DEFAULT" />
+242-->[cn.jiguang.sdk:jpush:4.7.2] C:\Users\Joker.Law\.gradle\caches\transforms-2\files-2.1\8be2f6271620b73bf42d7813aa485529\jetified-jpush-4.7.2\AndroidManifest.xml:55:17-76
+242-->[cn.jiguang.sdk:jpush:4.7.2] C:\Users\Joker.Law\.gradle\caches\transforms-2\files-2.1\8be2f6271620b73bf42d7813aa485529\jetified-jpush-4.7.2\AndroidManifest.xml:55:27-73
+243                <category android:name="com.xiaofeng.parking" />
+243-->[:jpush_flutter] C:\Users\Joker.Law\Desktop\projectcode2\build\jpush_flutter\intermediates\library_manifest\debug\AndroidManifest.xml:22:17-61
+243-->[:jpush_flutter] C:\Users\Joker.Law\Desktop\projectcode2\build\jpush_flutter\intermediates\library_manifest\debug\AndroidManifest.xml:22:27-58
+244            </intent-filter>
+245        </activity> <!-- Required SDK 核心功能 -->
+246        <!-- 可配置android:process参数将PushService放在其他进程中 -->
+247        <service
+247-->[cn.jiguang.sdk:jpush:4.7.2] C:\Users\Joker.Law\.gradle\caches\transforms-2\files-2.1\8be2f6271620b73bf42d7813aa485529\jetified-jpush-4.7.2\AndroidManifest.xml:78:9-89:19
+248            android:name="cn.jpush.android.service.PushService"
+248-->[cn.jiguang.sdk:jpush:4.7.2] C:\Users\Joker.Law\.gradle\caches\transforms-2\files-2.1\8be2f6271620b73bf42d7813aa485529\jetified-jpush-4.7.2\AndroidManifest.xml:79:13-64
+249            android:enabled="true"
+249-->[cn.jiguang.sdk:jpush:4.7.2] C:\Users\Joker.Law\.gradle\caches\transforms-2\files-2.1\8be2f6271620b73bf42d7813aa485529\jetified-jpush-4.7.2\AndroidManifest.xml:80:13-35
+250            android:exported="false"
+250-->[cn.jiguang.sdk:jpush:4.7.2] C:\Users\Joker.Law\.gradle\caches\transforms-2\files-2.1\8be2f6271620b73bf42d7813aa485529\jetified-jpush-4.7.2\AndroidManifest.xml:81:13-37
+251            android:process=":pushcore" >
+251-->[cn.jiguang.sdk:jpush:4.7.2] C:\Users\Joker.Law\.gradle\caches\transforms-2\files-2.1\8be2f6271620b73bf42d7813aa485529\jetified-jpush-4.7.2\AndroidManifest.xml:82:13-40
+252            <intent-filter>
+252-->[cn.jiguang.sdk:jpush:4.7.2] C:\Users\Joker.Law\.gradle\caches\transforms-2\files-2.1\8be2f6271620b73bf42d7813aa485529\jetified-jpush-4.7.2\AndroidManifest.xml:83:13-88:29
+253                <action android:name="cn.jpush.android.intent.REGISTER" />
+253-->[cn.jiguang.sdk:jpush:4.7.2] C:\Users\Joker.Law\.gradle\caches\transforms-2\files-2.1\8be2f6271620b73bf42d7813aa485529\jetified-jpush-4.7.2\AndroidManifest.xml:84:17-75
+253-->[cn.jiguang.sdk:jpush:4.7.2] C:\Users\Joker.Law\.gradle\caches\transforms-2\files-2.1\8be2f6271620b73bf42d7813aa485529\jetified-jpush-4.7.2\AndroidManifest.xml:84:25-72
+254                <action android:name="cn.jpush.android.intent.REPORT" />
+254-->[cn.jiguang.sdk:jpush:4.7.2] C:\Users\Joker.Law\.gradle\caches\transforms-2\files-2.1\8be2f6271620b73bf42d7813aa485529\jetified-jpush-4.7.2\AndroidManifest.xml:85:17-73
+254-->[cn.jiguang.sdk:jpush:4.7.2] C:\Users\Joker.Law\.gradle\caches\transforms-2\files-2.1\8be2f6271620b73bf42d7813aa485529\jetified-jpush-4.7.2\AndroidManifest.xml:85:25-70
+255                <action android:name="cn.jpush.android.intent.PushService" />
+255-->[cn.jiguang.sdk:jpush:4.7.2] C:\Users\Joker.Law\.gradle\caches\transforms-2\files-2.1\8be2f6271620b73bf42d7813aa485529\jetified-jpush-4.7.2\AndroidManifest.xml:86:17-78
+255-->[cn.jiguang.sdk:jpush:4.7.2] C:\Users\Joker.Law\.gradle\caches\transforms-2\files-2.1\8be2f6271620b73bf42d7813aa485529\jetified-jpush-4.7.2\AndroidManifest.xml:86:25-75
+256                <action android:name="cn.jpush.android.intent.PUSH_TIME" />
+256-->[cn.jiguang.sdk:jpush:4.7.2] C:\Users\Joker.Law\.gradle\caches\transforms-2\files-2.1\8be2f6271620b73bf42d7813aa485529\jetified-jpush-4.7.2\AndroidManifest.xml:87:17-76
+256-->[cn.jiguang.sdk:jpush:4.7.2] C:\Users\Joker.Law\.gradle\caches\transforms-2\files-2.1\8be2f6271620b73bf42d7813aa485529\jetified-jpush-4.7.2\AndroidManifest.xml:87:25-73
+257            </intent-filter>
+258        </service> <!-- since 1.8.0 option 可选项。用于同一设备中不同应用的JPush服务相互拉起的功能。 -->
+259        <!-- 若不启用该功能可删除该组件，或把 enabled 设置成 false ；App 不会被其他 App 拉起，但会拉起其他的 App。 -->
+260        <!-- jcore2.4.2 App的被拉起不依赖于该组件 -->
+261        <service
+261-->[cn.jiguang.sdk:jpush:4.7.2] C:\Users\Joker.Law\.gradle\caches\transforms-2\files-2.1\8be2f6271620b73bf42d7813aa485529\jetified-jpush-4.7.2\AndroidManifest.xml:94:9-103:19
+262            android:name="cn.jpush.android.service.DaemonService"
+262-->[cn.jiguang.sdk:jpush:4.7.2] C:\Users\Joker.Law\.gradle\caches\transforms-2\files-2.1\8be2f6271620b73bf42d7813aa485529\jetified-jpush-4.7.2\AndroidManifest.xml:95:13-66
+263            android:enabled="true"
+263-->[cn.jiguang.sdk:jpush:4.7.2] C:\Users\Joker.Law\.gradle\caches\transforms-2\files-2.1\8be2f6271620b73bf42d7813aa485529\jetified-jpush-4.7.2\AndroidManifest.xml:96:13-35
+264            android:exported="true" >
+264-->[cn.jiguang.sdk:jpush:4.7.2] C:\Users\Joker.Law\.gradle\caches\transforms-2\files-2.1\8be2f6271620b73bf42d7813aa485529\jetified-jpush-4.7.2\AndroidManifest.xml:97:13-36
+265            <intent-filter>
+265-->[cn.jiguang.sdk:jpush:4.7.2] C:\Users\Joker.Law\.gradle\caches\transforms-2\files-2.1\8be2f6271620b73bf42d7813aa485529\jetified-jpush-4.7.2\AndroidManifest.xml:98:13-102:29
+266                <action android:name="cn.jpush.android.intent.DaemonService" />
+266-->[cn.jiguang.sdk:jpush:4.7.2] C:\Users\Joker.Law\.gradle\caches\transforms-2\files-2.1\8be2f6271620b73bf42d7813aa485529\jetified-jpush-4.7.2\AndroidManifest.xml:99:17-80
+266-->[cn.jiguang.sdk:jpush:4.7.2] C:\Users\Joker.Law\.gradle\caches\transforms-2\files-2.1\8be2f6271620b73bf42d7813aa485529\jetified-jpush-4.7.2\AndroidManifest.xml:99:25-77
+267
+268                <category android:name="com.xiaofeng.parking" />
+268-->[:jpush_flutter] C:\Users\Joker.Law\Desktop\projectcode2\build\jpush_flutter\intermediates\library_manifest\debug\AndroidManifest.xml:22:17-61
+268-->[:jpush_flutter] C:\Users\Joker.Law\Desktop\projectcode2\build\jpush_flutter\intermediates\library_manifest\debug\AndroidManifest.xml:22:27-58
+269            </intent-filter>
+270        </service> <!-- 可选，如果使用静态Activity方式拉起，该组件必须声明 -->
+271        <activity
+271-->[cn.jiguang.sdk:jpush:4.7.2] C:\Users\Joker.Law\.gradle\caches\transforms-2\files-2.1\8be2f6271620b73bf42d7813aa485529\jetified-jpush-4.7.2\AndroidManifest.xml:105:9-116:20
+272            android:name="cn.jpush.android.service.DActivity"
+272-->[cn.jiguang.sdk:jpush:4.7.2] C:\Users\Joker.Law\.gradle\caches\transforms-2\files-2.1\8be2f6271620b73bf42d7813aa485529\jetified-jpush-4.7.2\AndroidManifest.xml:106:13-62
+273            android:enabled="true"
+273-->[cn.jiguang.sdk:jpush:4.7.2] C:\Users\Joker.Law\.gradle\caches\transforms-2\files-2.1\8be2f6271620b73bf42d7813aa485529\jetified-jpush-4.7.2\AndroidManifest.xml:107:13-35
+274            android:exported="true"
+274-->[cn.jiguang.sdk:jpush:4.7.2] C:\Users\Joker.Law\.gradle\caches\transforms-2\files-2.1\8be2f6271620b73bf42d7813aa485529\jetified-jpush-4.7.2\AndroidManifest.xml:108:13-36
+275            android:taskAffinity="jpush.custom"
+275-->[cn.jiguang.sdk:jpush:4.7.2] C:\Users\Joker.Law\.gradle\caches\transforms-2\files-2.1\8be2f6271620b73bf42d7813aa485529\jetified-jpush-4.7.2\AndroidManifest.xml:109:13-48
+276            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
+276-->[cn.jiguang.sdk:jpush:4.7.2] C:\Users\Joker.Law\.gradle\caches\transforms-2\files-2.1\8be2f6271620b73bf42d7813aa485529\jetified-jpush-4.7.2\AndroidManifest.xml:110:13-72
+277            <intent-filter>
+277-->[cn.jiguang.sdk:jpush:4.7.2] C:\Users\Joker.Law\.gradle\caches\transforms-2\files-2.1\8be2f6271620b73bf42d7813aa485529\jetified-jpush-4.7.2\AndroidManifest.xml:111:13-115:29
+278                <action android:name="cn.jpush.android.intent.DActivity" />
+278-->[cn.jiguang.sdk:jpush:4.7.2] C:\Users\Joker.Law\.gradle\caches\transforms-2\files-2.1\8be2f6271620b73bf42d7813aa485529\jetified-jpush-4.7.2\AndroidManifest.xml:112:17-76
+278-->[cn.jiguang.sdk:jpush:4.7.2] C:\Users\Joker.Law\.gradle\caches\transforms-2\files-2.1\8be2f6271620b73bf42d7813aa485529\jetified-jpush-4.7.2\AndroidManifest.xml:112:25-73
+279
+280                <category android:name="com.xiaofeng.parking" />
+280-->[:jpush_flutter] C:\Users\Joker.Law\Desktop\projectcode2\build\jpush_flutter\intermediates\library_manifest\debug\AndroidManifest.xml:22:17-61
+280-->[:jpush_flutter] C:\Users\Joker.Law\Desktop\projectcode2\build\jpush_flutter\intermediates\library_manifest\debug\AndroidManifest.xml:22:27-58
+281            </intent-filter>
+282        </activity> <!-- Required SDK核心功能 -->
+283        <receiver
+283-->[cn.jiguang.sdk:jpush:4.7.2] C:\Users\Joker.Law\.gradle\caches\transforms-2\files-2.1\8be2f6271620b73bf42d7813aa485529\jetified-jpush-4.7.2\AndroidManifest.xml:119:9-137:20
+284            android:name="cn.jpush.android.service.PushReceiver"
+284-->[cn.jiguang.sdk:jpush:4.7.2] C:\Users\Joker.Law\.gradle\caches\transforms-2\files-2.1\8be2f6271620b73bf42d7813aa485529\jetified-jpush-4.7.2\AndroidManifest.xml:120:13-65
+285            android:enabled="true"
+285-->[cn.jiguang.sdk:jpush:4.7.2] C:\Users\Joker.Law\.gradle\caches\transforms-2\files-2.1\8be2f6271620b73bf42d7813aa485529\jetified-jpush-4.7.2\AndroidManifest.xml:121:13-35
+286            android:exported="false" >
+286-->[cn.jiguang.sdk:jpush:4.7.2] C:\Users\Joker.Law\.gradle\caches\transforms-2\files-2.1\8be2f6271620b73bf42d7813aa485529\jetified-jpush-4.7.2\AndroidManifest.xml:122:13-37
+287            <intent-filter android:priority="1000" >
+287-->[cn.jiguang.sdk:jpush:4.7.2] C:\Users\Joker.Law\.gradle\caches\transforms-2\files-2.1\8be2f6271620b73bf42d7813aa485529\jetified-jpush-4.7.2\AndroidManifest.xml:123:13-126:29
+287-->[cn.jiguang.sdk:jpush:4.7.2] C:\Users\Joker.Law\.gradle\caches\transforms-2\files-2.1\8be2f6271620b73bf42d7813aa485529\jetified-jpush-4.7.2\AndroidManifest.xml:123:28-51
+288                <action android:name="cn.jpush.android.intent.NOTIFICATION_RECEIVED_PROXY" /> <!-- Required  显示通知栏 -->
+288-->[cn.jiguang.sdk:jpush:4.7.2] C:\Users\Joker.Law\.gradle\caches\transforms-2\files-2.1\8be2f6271620b73bf42d7813aa485529\jetified-jpush-4.7.2\AndroidManifest.xml:124:17-94
+288-->[cn.jiguang.sdk:jpush:4.7.2] C:\Users\Joker.Law\.gradle\caches\transforms-2\files-2.1\8be2f6271620b73bf42d7813aa485529\jetified-jpush-4.7.2\AndroidManifest.xml:124:25-91
+289                <category android:name="com.xiaofeng.parking" />
+289-->[:jpush_flutter] C:\Users\Joker.Law\Desktop\projectcode2\build\jpush_flutter\intermediates\library_manifest\debug\AndroidManifest.xml:22:17-61
+289-->[:jpush_flutter] C:\Users\Joker.Law\Desktop\projectcode2\build\jpush_flutter\intermediates\library_manifest\debug\AndroidManifest.xml:22:27-58
+290            </intent-filter>
+291            <intent-filter>
+291-->[cn.jiguang.sdk:jpush:4.7.2] C:\Users\Joker.Law\.gradle\caches\transforms-2\files-2.1\8be2f6271620b73bf42d7813aa485529\jetified-jpush-4.7.2\AndroidManifest.xml:127:13-129:29
+292                <action android:name="android.net.conn.CONNECTIVITY_CHANGE" />
+292-->[cn.jiguang.sdk:jpush:4.7.2] C:\Users\Joker.Law\.gradle\caches\transforms-2\files-2.1\8be2f6271620b73bf42d7813aa485529\jetified-jpush-4.7.2\AndroidManifest.xml:128:17-79
+292-->[cn.jiguang.sdk:jpush:4.7.2] C:\Users\Joker.Law\.gradle\caches\transforms-2\files-2.1\8be2f6271620b73bf42d7813aa485529\jetified-jpush-4.7.2\AndroidManifest.xml:128:25-76
+293            </intent-filter>
+294            <!-- Optional -->
+295            <intent-filter>
+295-->[cn.jiguang.sdk:jpush:4.7.2] C:\Users\Joker.Law\.gradle\caches\transforms-2\files-2.1\8be2f6271620b73bf42d7813aa485529\jetified-jpush-4.7.2\AndroidManifest.xml:131:13-136:29
+296                <action android:name="android.intent.action.PACKAGE_ADDED" />
+296-->[cn.jiguang.sdk:jpush:4.7.2] C:\Users\Joker.Law\.gradle\caches\transforms-2\files-2.1\8be2f6271620b73bf42d7813aa485529\jetified-jpush-4.7.2\AndroidManifest.xml:132:17-78
+296-->[cn.jiguang.sdk:jpush:4.7.2] C:\Users\Joker.Law\.gradle\caches\transforms-2\files-2.1\8be2f6271620b73bf42d7813aa485529\jetified-jpush-4.7.2\AndroidManifest.xml:132:25-75
+297                <action android:name="android.intent.action.PACKAGE_REMOVED" />
+297-->[cn.jiguang.sdk:jpush:4.7.2] C:\Users\Joker.Law\.gradle\caches\transforms-2\files-2.1\8be2f6271620b73bf42d7813aa485529\jetified-jpush-4.7.2\AndroidManifest.xml:133:17-80
+297-->[cn.jiguang.sdk:jpush:4.7.2] C:\Users\Joker.Law\.gradle\caches\transforms-2\files-2.1\8be2f6271620b73bf42d7813aa485529\jetified-jpush-4.7.2\AndroidManifest.xml:133:25-77
+298
+299                <data android:scheme="package" />
+299-->[cn.jiguang.sdk:jpush:4.7.2] C:\Users\Joker.Law\.gradle\caches\transforms-2\files-2.1\8be2f6271620b73bf42d7813aa485529\jetified-jpush-4.7.2\AndroidManifest.xml:135:17-50
+299-->[cn.jiguang.sdk:jpush:4.7.2] C:\Users\Joker.Law\.gradle\caches\transforms-2\files-2.1\8be2f6271620b73bf42d7813aa485529\jetified-jpush-4.7.2\AndroidManifest.xml:135:23-47
+300            </intent-filter>
+301        </receiver> <!-- Required SDK核心功能 -->
+302        <receiver
+302-->[cn.jiguang.sdk:jpush:4.7.2] C:\Users\Joker.Law\.gradle\caches\transforms-2\files-2.1\8be2f6271620b73bf42d7813aa485529\jetified-jpush-4.7.2\AndroidManifest.xml:140:9-142:40
+303            android:name="cn.jpush.android.service.AlarmReceiver"
+303-->[cn.jiguang.sdk:jpush:4.7.2] C:\Users\Joker.Law\.gradle\caches\transforms-2\files-2.1\8be2f6271620b73bf42d7813aa485529\jetified-jpush-4.7.2\AndroidManifest.xml:141:13-66
+304            android:exported="false" /> <!-- since 3.5.0 Required SDK 核心功能 -->
+304-->[cn.jiguang.sdk:jpush:4.7.2] C:\Users\Joker.Law\.gradle\caches\transforms-2\files-2.1\8be2f6271620b73bf42d7813aa485529\jetified-jpush-4.7.2\AndroidManifest.xml:142:13-37
+305        <!-- 3.5.0新增，用于定时展示功能 -->
+306        <receiver
+306-->[cn.jiguang.sdk:jpush:4.7.2] C:\Users\Joker.Law\.gradle\caches\transforms-2\files-2.1\8be2f6271620b73bf42d7813aa485529\jetified-jpush-4.7.2\AndroidManifest.xml:146:9-148:40
+307            android:name="cn.jpush.android.service.SchedulerReceiver"
+307-->[cn.jiguang.sdk:jpush:4.7.2] C:\Users\Joker.Law\.gradle\caches\transforms-2\files-2.1\8be2f6271620b73bf42d7813aa485529\jetified-jpush-4.7.2\AndroidManifest.xml:147:13-70
+308            android:exported="false" /> <!-- since 3.0.9 Required SDK 核心功能 -->
+308-->[cn.jiguang.sdk:jpush:4.7.2] C:\Users\Joker.Law\.gradle\caches\transforms-2\files-2.1\8be2f6271620b73bf42d7813aa485529\jetified-jpush-4.7.2\AndroidManifest.xml:148:13-37
+309        <provider
+309-->[cn.jiguang.sdk:jpush:4.7.2] C:\Users\Joker.Law\.gradle\caches\transforms-2\files-2.1\8be2f6271620b73bf42d7813aa485529\jetified-jpush-4.7.2\AndroidManifest.xml:151:9-155:43
+310            android:name="cn.jpush.android.service.DataProvider"
+310-->[cn.jiguang.sdk:jpush:4.7.2] C:\Users\Joker.Law\.gradle\caches\transforms-2\files-2.1\8be2f6271620b73bf42d7813aa485529\jetified-jpush-4.7.2\AndroidManifest.xml:152:13-65
+311            android:authorities="com.xiaofeng.parking.DataProvider"
+311-->[cn.jiguang.sdk:jpush:4.7.2] C:\Users\Joker.Law\.gradle\caches\transforms-2\files-2.1\8be2f6271620b73bf42d7813aa485529\jetified-jpush-4.7.2\AndroidManifest.xml:153:13-64
+312            android:exported="false"
+312-->[cn.jiguang.sdk:jpush:4.7.2] C:\Users\Joker.Law\.gradle\caches\transforms-2\files-2.1\8be2f6271620b73bf42d7813aa485529\jetified-jpush-4.7.2\AndroidManifest.xml:154:13-37
+313            android:process=":pushcore" /> <!-- since 3.1.0 Required SDK 核心功能 -->
+313-->[cn.jiguang.sdk:jpush:4.7.2] C:\Users\Joker.Law\.gradle\caches\transforms-2\files-2.1\8be2f6271620b73bf42d7813aa485529\jetified-jpush-4.7.2\AndroidManifest.xml:155:13-40
+314        <provider
+314-->[cn.jiguang.sdk:jpush:4.7.2] C:\Users\Joker.Law\.gradle\caches\transforms-2\files-2.1\8be2f6271620b73bf42d7813aa485529\jetified-jpush-4.7.2\AndroidManifest.xml:157:9-160:39
+315            android:name="cn.jpush.android.service.DownloadProvider"
+315-->[cn.jiguang.sdk:jpush:4.7.2] C:\Users\Joker.Law\.gradle\caches\transforms-2\files-2.1\8be2f6271620b73bf42d7813aa485529\jetified-jpush-4.7.2\AndroidManifest.xml:158:13-69
+316            android:authorities="com.xiaofeng.parking.DownloadProvider"
+316-->[cn.jiguang.sdk:jpush:4.7.2] C:\Users\Joker.Law\.gradle\caches\transforms-2\files-2.1\8be2f6271620b73bf42d7813aa485529\jetified-jpush-4.7.2\AndroidManifest.xml:159:13-68
+317            android:exported="true" /> <!-- since 4.6.3 可选，适配Anroid7.0及以上，如果您的应用需要在Anroid7.0及以上环境运行 -->
+317-->[cn.jiguang.sdk:jpush:4.7.2] C:\Users\Joker.Law\.gradle\caches\transforms-2\files-2.1\8be2f6271620b73bf42d7813aa485529\jetified-jpush-4.7.2\AndroidManifest.xml:160:13-36
+318        <provider
+318-->[cn.jiguang.sdk:jpush:4.7.2] C:\Users\Joker.Law\.gradle\caches\transforms-2\files-2.1\8be2f6271620b73bf42d7813aa485529\jetified-jpush-4.7.2\AndroidManifest.xml:162:9-176:20
+319            android:name="cn.jiguang.union.ads.service.JAdFileProvider"
+319-->[cn.jiguang.sdk:jpush:4.7.2] C:\Users\Joker.Law\.gradle\caches\transforms-2\files-2.1\8be2f6271620b73bf42d7813aa485529\jetified-jpush-4.7.2\AndroidManifest.xml:163:13-72
+320            android:authorities="com.xiaofeng.parking.JAdFileProvider"
+320-->[cn.jiguang.sdk:jpush:4.7.2] C:\Users\Joker.Law\.gradle\caches\transforms-2\files-2.1\8be2f6271620b73bf42d7813aa485529\jetified-jpush-4.7.2\AndroidManifest.xml:164:13-67
+321            android:exported="false"
+321-->[cn.jiguang.sdk:jpush:4.7.2] C:\Users\Joker.Law\.gradle\caches\transforms-2\files-2.1\8be2f6271620b73bf42d7813aa485529\jetified-jpush-4.7.2\AndroidManifest.xml:165:13-37
+322            android:grantUriPermissions="true" >
+322-->[cn.jiguang.sdk:jpush:4.7.2] C:\Users\Joker.Law\.gradle\caches\transforms-2\files-2.1\8be2f6271620b73bf42d7813aa485529\jetified-jpush-4.7.2\AndroidManifest.xml:166:13-47
+323            <meta-data
+323-->[:image_picker_android] C:\Users\Joker.Law\Desktop\projectcode2\build\image_picker_android\intermediates\library_manifest\debug\AndroidManifest.xml:13:13-15:75
+324                android:name="android.support.FILE_PROVIDER_PATHS"
+324-->[:image_picker_android] C:\Users\Joker.Law\Desktop\projectcode2\build\image_picker_android\intermediates\library_manifest\debug\AndroidManifest.xml:14:17-67
+325                android:resource="@xml/jpush_file_paths" />
+325-->[:image_picker_android] C:\Users\Joker.Law\Desktop\projectcode2\build\image_picker_android\intermediates\library_manifest\debug\AndroidManifest.xml:15:17-72
+326
+327            <intent-filter>
+327-->[cn.jiguang.sdk:jpush:4.7.2] C:\Users\Joker.Law\.gradle\caches\transforms-2\files-2.1\8be2f6271620b73bf42d7813aa485529\jetified-jpush-4.7.2\AndroidManifest.xml:171:13-175:29
+328                <action android:name="cn.jpush.android.intent.FileProvider" />
+328-->[cn.jiguang.sdk:jpush:4.7.2] C:\Users\Joker.Law\.gradle\caches\transforms-2\files-2.1\8be2f6271620b73bf42d7813aa485529\jetified-jpush-4.7.2\AndroidManifest.xml:172:17-79
+328-->[cn.jiguang.sdk:jpush:4.7.2] C:\Users\Joker.Law\.gradle\caches\transforms-2\files-2.1\8be2f6271620b73bf42d7813aa485529\jetified-jpush-4.7.2\AndroidManifest.xml:172:25-76
+329
+330                <category android:name="com.xiaofeng.parking" />
+330-->[:jpush_flutter] C:\Users\Joker.Law\Desktop\projectcode2\build\jpush_flutter\intermediates\library_manifest\debug\AndroidManifest.xml:22:17-61
+330-->[:jpush_flutter] C:\Users\Joker.Law\Desktop\projectcode2\build\jpush_flutter\intermediates\library_manifest\debug\AndroidManifest.xml:22:27-58
+331            </intent-filter>
+332        </provider> <!-- since 3.3.0 Required SDK核心功能 -->
+333        <activity
+333-->[cn.jiguang.sdk:jpush:4.7.2] C:\Users\Joker.Law\.gradle\caches\transforms-2\files-2.1\8be2f6271620b73bf42d7813aa485529\jetified-jpush-4.7.2\AndroidManifest.xml:178:9-189:20
+334            android:name="cn.jpush.android.service.JNotifyActivity"
+334-->[cn.jiguang.sdk:jpush:4.7.2] C:\Users\Joker.Law\.gradle\caches\transforms-2\files-2.1\8be2f6271620b73bf42d7813aa485529\jetified-jpush-4.7.2\AndroidManifest.xml:179:13-68
+335            android:exported="true"
+335-->[cn.jiguang.sdk:jpush:4.7.2] C:\Users\Joker.Law\.gradle\caches\transforms-2\files-2.1\8be2f6271620b73bf42d7813aa485529\jetified-jpush-4.7.2\AndroidManifest.xml:180:13-36
+336            android:taskAffinity="jpush.custom"
+336-->[cn.jiguang.sdk:jpush:4.7.2] C:\Users\Joker.Law\.gradle\caches\transforms-2\files-2.1\8be2f6271620b73bf42d7813aa485529\jetified-jpush-4.7.2\AndroidManifest.xml:181:13-48
+337            android:theme="@style/JPushTheme" >
+337-->[cn.jiguang.sdk:jpush:4.7.2] C:\Users\Joker.Law\.gradle\caches\transforms-2\files-2.1\8be2f6271620b73bf42d7813aa485529\jetified-jpush-4.7.2\AndroidManifest.xml:182:13-46
+338            <intent-filter>
+338-->[cn.jiguang.sdk:jpush:4.7.2] C:\Users\Joker.Law\.gradle\caches\transforms-2\files-2.1\8be2f6271620b73bf42d7813aa485529\jetified-jpush-4.7.2\AndroidManifest.xml:183:13-188:29
+339                <action android:name="cn.jpush.android.intent.JNotifyActivity" />
+339-->[cn.jiguang.sdk:jpush:4.7.2] C:\Users\Joker.Law\.gradle\caches\transforms-2\files-2.1\8be2f6271620b73bf42d7813aa485529\jetified-jpush-4.7.2\AndroidManifest.xml:184:17-82
+339-->[cn.jiguang.sdk:jpush:4.7.2] C:\Users\Joker.Law\.gradle\caches\transforms-2\files-2.1\8be2f6271620b73bf42d7813aa485529\jetified-jpush-4.7.2\AndroidManifest.xml:184:25-79
+340
+341                <category android:name="android.intent.category.DEFAULT" />
+341-->[cn.jiguang.sdk:jpush:4.7.2] C:\Users\Joker.Law\.gradle\caches\transforms-2\files-2.1\8be2f6271620b73bf42d7813aa485529\jetified-jpush-4.7.2\AndroidManifest.xml:55:17-76
+341-->[cn.jiguang.sdk:jpush:4.7.2] C:\Users\Joker.Law\.gradle\caches\transforms-2\files-2.1\8be2f6271620b73bf42d7813aa485529\jetified-jpush-4.7.2\AndroidManifest.xml:55:27-73
+342                <category android:name="com.xiaofeng.parking" />
+342-->[:jpush_flutter] C:\Users\Joker.Law\Desktop\projectcode2\build\jpush_flutter\intermediates\library_manifest\debug\AndroidManifest.xml:22:17-61
+342-->[:jpush_flutter] C:\Users\Joker.Law\Desktop\projectcode2\build\jpush_flutter\intermediates\library_manifest\debug\AndroidManifest.xml:22:27-58
+343            </intent-filter>
+344        </activity> <!-- since 4.6.0 Required SDK核心功能 -->
+345        <activity
+345-->[cn.jiguang.sdk:jpush:4.7.2] C:\Users\Joker.Law\.gradle\caches\transforms-2\files-2.1\8be2f6271620b73bf42d7813aa485529\jetified-jpush-4.7.2\AndroidManifest.xml:191:9-202:20
+346            android:name="cn.android.service.JTransitActivity"
+346-->[cn.jiguang.sdk:jpush:4.7.2] C:\Users\Joker.Law\.gradle\caches\transforms-2\files-2.1\8be2f6271620b73bf42d7813aa485529\jetified-jpush-4.7.2\AndroidManifest.xml:192:13-63
+347            android:exported="true"
+347-->[cn.jiguang.sdk:jpush:4.7.2] C:\Users\Joker.Law\.gradle\caches\transforms-2\files-2.1\8be2f6271620b73bf42d7813aa485529\jetified-jpush-4.7.2\AndroidManifest.xml:193:13-36
+348            android:taskAffinity="jpush.custom"
+348-->[cn.jiguang.sdk:jpush:4.7.2] C:\Users\Joker.Law\.gradle\caches\transforms-2\files-2.1\8be2f6271620b73bf42d7813aa485529\jetified-jpush-4.7.2\AndroidManifest.xml:194:13-48
+349            android:theme="@style/JPushTheme" >
+349-->[cn.jiguang.sdk:jpush:4.7.2] C:\Users\Joker.Law\.gradle\caches\transforms-2\files-2.1\8be2f6271620b73bf42d7813aa485529\jetified-jpush-4.7.2\AndroidManifest.xml:195:13-46
+350            <intent-filter>
+350-->[cn.jiguang.sdk:jpush:4.7.2] C:\Users\Joker.Law\.gradle\caches\transforms-2\files-2.1\8be2f6271620b73bf42d7813aa485529\jetified-jpush-4.7.2\AndroidManifest.xml:196:13-201:29
+351                <action android:name="cn.android.service.JTransitActivity" />
+351-->[cn.jiguang.sdk:jpush:4.7.2] C:\Users\Joker.Law\.gradle\caches\transforms-2\files-2.1\8be2f6271620b73bf42d7813aa485529\jetified-jpush-4.7.2\AndroidManifest.xml:197:17-78
+351-->[cn.jiguang.sdk:jpush:4.7.2] C:\Users\Joker.Law\.gradle\caches\transforms-2\files-2.1\8be2f6271620b73bf42d7813aa485529\jetified-jpush-4.7.2\AndroidManifest.xml:197:25-75
+352
+353                <category android:name="android.intent.category.DEFAULT" />
+353-->[cn.jiguang.sdk:jpush:4.7.2] C:\Users\Joker.Law\.gradle\caches\transforms-2\files-2.1\8be2f6271620b73bf42d7813aa485529\jetified-jpush-4.7.2\AndroidManifest.xml:55:17-76
+353-->[cn.jiguang.sdk:jpush:4.7.2] C:\Users\Joker.Law\.gradle\caches\transforms-2\files-2.1\8be2f6271620b73bf42d7813aa485529\jetified-jpush-4.7.2\AndroidManifest.xml:55:27-73
+354                <category android:name="com.xiaofeng.parking" />
+354-->[:jpush_flutter] C:\Users\Joker.Law\Desktop\projectcode2\build\jpush_flutter\intermediates\library_manifest\debug\AndroidManifest.xml:22:17-61
+354-->[:jpush_flutter] C:\Users\Joker.Law\Desktop\projectcode2\build\jpush_flutter\intermediates\library_manifest\debug\AndroidManifest.xml:22:27-58
+355            </intent-filter>
+356        </activity> <!-- since 3.5.6 新增华硕通道 -->
+357        <receiver
+357-->[cn.jiguang.sdk:jpush:4.7.2] C:\Users\Joker.Law\.gradle\caches\transforms-2\files-2.1\8be2f6271620b73bf42d7813aa485529\jetified-jpush-4.7.2\AndroidManifest.xml:204:9-206:40
+358            android:name="cn.jpush.android.asus.AsusPushMessageReceiver"
+358-->[cn.jiguang.sdk:jpush:4.7.2] C:\Users\Joker.Law\.gradle\caches\transforms-2\files-2.1\8be2f6271620b73bf42d7813aa485529\jetified-jpush-4.7.2\AndroidManifest.xml:205:13-73
+359            android:exported="false" /> <!-- Required  . Enable it you can get statistics data with channel -->
+359-->[cn.jiguang.sdk:jpush:4.7.2] C:\Users\Joker.Law\.gradle\caches\transforms-2\files-2.1\8be2f6271620b73bf42d7813aa485529\jetified-jpush-4.7.2\AndroidManifest.xml:206:13-37
+360        <meta-data
+360-->[cn.jiguang.sdk:jpush:4.7.2] C:\Users\Joker.Law\.gradle\caches\transforms-2\files-2.1\8be2f6271620b73bf42d7813aa485529\jetified-jpush-4.7.2\AndroidManifest.xml:208:9-210:48
+361            android:name="JPUSH_CHANNEL"
+361-->[cn.jiguang.sdk:jpush:4.7.2] C:\Users\Joker.Law\.gradle\caches\transforms-2\files-2.1\8be2f6271620b73bf42d7813aa485529\jetified-jpush-4.7.2\AndroidManifest.xml:209:13-41
+362            android:value="developer-default" />
+362-->[cn.jiguang.sdk:jpush:4.7.2] C:\Users\Joker.Law\.gradle\caches\transforms-2\files-2.1\8be2f6271620b73bf42d7813aa485529\jetified-jpush-4.7.2\AndroidManifest.xml:210:13-45
+363        <meta-data
+363-->[cn.jiguang.sdk:jpush:4.7.2] C:\Users\Joker.Law\.gradle\caches\transforms-2\files-2.1\8be2f6271620b73bf42d7813aa485529\jetified-jpush-4.7.2\AndroidManifest.xml:211:9-213:47
+364            android:name="JPUSH_APPKEY"
+364-->[cn.jiguang.sdk:jpush:4.7.2] C:\Users\Joker.Law\.gradle\caches\transforms-2\files-2.1\8be2f6271620b73bf42d7813aa485529\jetified-jpush-4.7.2\AndroidManifest.xml:212:13-40
+365            android:value="86821e2cdd40207deee07df3" />
+365-->[cn.jiguang.sdk:jpush:4.7.2] C:\Users\Joker.Law\.gradle\caches\transforms-2\files-2.1\8be2f6271620b73bf42d7813aa485529\jetified-jpush-4.7.2\AndroidManifest.xml:213:13-44
+366    </application>
+367
+368</manifest>

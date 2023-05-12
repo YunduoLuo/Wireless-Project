@@ -1,0 +1,4 @@
+com/ajinasokan/flutterdisplaymode/BuildConfig.java
+ com.ajinasokan.flutterdisplaymode.BuildConfig
+com/ajinasokan/flutterdisplaymode/DisplayModePlugin.java
+ com.ajinasokan.flutterdisplaymode.DisplayModePlugin

@@ -1,0 +1,87 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.jiguang.jpush" >
+4
+5    <uses-sdk android:minSdkVersion="17" />
+5-->F:\flutter_windows_3.3.8-stable\flutter\.pub-cache\hosted\pub.flutter-io.cn\jpush_flutter-2.3.5\android\src\main\AndroidManifest.xml
+6
+7    <uses-permission android:name="com.huawei.android.launcher.permission.CHANGE_BADGE" />
+7-->F:\flutter_windows_3.3.8-stable\flutter\.pub-cache\hosted\pub.flutter-io.cn\jpush_flutter-2.3.5\android\src\main\AndroidManifest.xml:38:5-90
+7-->F:\flutter_windows_3.3.8-stable\flutter\.pub-cache\hosted\pub.flutter-io.cn\jpush_flutter-2.3.5\android\src\main\AndroidManifest.xml:38:22-88
+8
+9    <application>
+9-->F:\flutter_windows_3.3.8-stable\flutter\.pub-cache\hosted\pub.flutter-io.cn\jpush_flutter-2.3.5\android\src\main\AndroidManifest.xml:3:5-37:19
+10        <receiver
+10-->F:\flutter_windows_3.3.8-stable\flutter\.pub-cache\hosted\pub.flutter-io.cn\jpush_flutter-2.3.5\android\src\main\AndroidManifest.xml:4:9-17:20
+11            android:name="com.jiguang.jpush.JPushPlugin$JPushReceiver"
+11-->F:\flutter_windows_3.3.8-stable\flutter\.pub-cache\hosted\pub.flutter-io.cn\jpush_flutter-2.3.5\android\src\main\AndroidManifest.xml:5:13-71
+12            android:enabled="true"
+12-->F:\flutter_windows_3.3.8-stable\flutter\.pub-cache\hosted\pub.flutter-io.cn\jpush_flutter-2.3.5\android\src\main\AndroidManifest.xml:6:13-35
+13            android:exported="false" >
+13-->F:\flutter_windows_3.3.8-stable\flutter\.pub-cache\hosted\pub.flutter-io.cn\jpush_flutter-2.3.5\android\src\main\AndroidManifest.xml:7:13-37
+14            <intent-filter>
+14-->F:\flutter_windows_3.3.8-stable\flutter\.pub-cache\hosted\pub.flutter-io.cn\jpush_flutter-2.3.5\android\src\main\AndroidManifest.xml:8:13-16:29
+15                <action android:name="cn.jpush.android.intent.REGISTRATION" />
+15-->F:\flutter_windows_3.3.8-stable\flutter\.pub-cache\hosted\pub.flutter-io.cn\jpush_flutter-2.3.5\android\src\main\AndroidManifest.xml:9:17-79
+15-->F:\flutter_windows_3.3.8-stable\flutter\.pub-cache\hosted\pub.flutter-io.cn\jpush_flutter-2.3.5\android\src\main\AndroidManifest.xml:9:25-76
+16                <action android:name="cn.jpush.android.intent.MESSAGE_RECEIVED" />
+16-->F:\flutter_windows_3.3.8-stable\flutter\.pub-cache\hosted\pub.flutter-io.cn\jpush_flutter-2.3.5\android\src\main\AndroidManifest.xml:10:17-83
+16-->F:\flutter_windows_3.3.8-stable\flutter\.pub-cache\hosted\pub.flutter-io.cn\jpush_flutter-2.3.5\android\src\main\AndroidManifest.xml:10:25-80
+17                <action android:name="cn.jpush.android.intent.NOTIFICATION_RECEIVED" />
+17-->F:\flutter_windows_3.3.8-stable\flutter\.pub-cache\hosted\pub.flutter-io.cn\jpush_flutter-2.3.5\android\src\main\AndroidManifest.xml:11:17-88
+17-->F:\flutter_windows_3.3.8-stable\flutter\.pub-cache\hosted\pub.flutter-io.cn\jpush_flutter-2.3.5\android\src\main\AndroidManifest.xml:11:25-85
+18                <action android:name="cn.jpush.android.intent.NOTIFICATION_OPENED" />
+18-->F:\flutter_windows_3.3.8-stable\flutter\.pub-cache\hosted\pub.flutter-io.cn\jpush_flutter-2.3.5\android\src\main\AndroidManifest.xml:12:17-86
+18-->F:\flutter_windows_3.3.8-stable\flutter\.pub-cache\hosted\pub.flutter-io.cn\jpush_flutter-2.3.5\android\src\main\AndroidManifest.xml:12:25-83
+19                <action android:name="cn.jpush.android.intent.NOTIFICATION_CLICK_ACTION" />
+19-->F:\flutter_windows_3.3.8-stable\flutter\.pub-cache\hosted\pub.flutter-io.cn\jpush_flutter-2.3.5\android\src\main\AndroidManifest.xml:13:17-92
+19-->F:\flutter_windows_3.3.8-stable\flutter\.pub-cache\hosted\pub.flutter-io.cn\jpush_flutter-2.3.5\android\src\main\AndroidManifest.xml:13:25-89
+20                <action android:name="cn.jpush.android.intent.CONNECTION" />
+20-->F:\flutter_windows_3.3.8-stable\flutter\.pub-cache\hosted\pub.flutter-io.cn\jpush_flutter-2.3.5\android\src\main\AndroidManifest.xml:14:17-77
+20-->F:\flutter_windows_3.3.8-stable\flutter\.pub-cache\hosted\pub.flutter-io.cn\jpush_flutter-2.3.5\android\src\main\AndroidManifest.xml:14:25-74
+21
+22                <category android:name="${applicationId}" />
+22-->F:\flutter_windows_3.3.8-stable\flutter\.pub-cache\hosted\pub.flutter-io.cn\jpush_flutter-2.3.5\android\src\main\AndroidManifest.xml:15:17-61
+22-->F:\flutter_windows_3.3.8-stable\flutter\.pub-cache\hosted\pub.flutter-io.cn\jpush_flutter-2.3.5\android\src\main\AndroidManifest.xml:15:27-58
+23            </intent-filter>
+24        </receiver>
+25        <receiver
+25-->F:\flutter_windows_3.3.8-stable\flutter\.pub-cache\hosted\pub.flutter-io.cn\jpush_flutter-2.3.5\android\src\main\AndroidManifest.xml:19:9-25:20
+26            android:name="com.jiguang.jpush.JPushEventReceiver"
+26-->F:\flutter_windows_3.3.8-stable\flutter\.pub-cache\hosted\pub.flutter-io.cn\jpush_flutter-2.3.5\android\src\main\AndroidManifest.xml:19:19-70
+27            android:exported="false" >
+27-->F:\flutter_windows_3.3.8-stable\flutter\.pub-cache\hosted\pub.flutter-io.cn\jpush_flutter-2.3.5\android\src\main\AndroidManifest.xml:20:13-37
+28            <intent-filter>
+28-->F:\flutter_windows_3.3.8-stable\flutter\.pub-cache\hosted\pub.flutter-io.cn\jpush_flutter-2.3.5\android\src\main\AndroidManifest.xml:21:13-24:29
+29                <action android:name="cn.jpush.android.intent.RECEIVE_MESSAGE" />
+29-->F:\flutter_windows_3.3.8-stable\flutter\.pub-cache\hosted\pub.flutter-io.cn\jpush_flutter-2.3.5\android\src\main\AndroidManifest.xml:22:17-82
+29-->F:\flutter_windows_3.3.8-stable\flutter\.pub-cache\hosted\pub.flutter-io.cn\jpush_flutter-2.3.5\android\src\main\AndroidManifest.xml:22:25-79
+30
+31                <category android:name="${applicationId}" />
+31-->F:\flutter_windows_3.3.8-stable\flutter\.pub-cache\hosted\pub.flutter-io.cn\jpush_flutter-2.3.5\android\src\main\AndroidManifest.xml:15:17-61
+31-->F:\flutter_windows_3.3.8-stable\flutter\.pub-cache\hosted\pub.flutter-io.cn\jpush_flutter-2.3.5\android\src\main\AndroidManifest.xml:15:27-58
+32            </intent-filter>
+33        </receiver>
+34        <!-- Since JCore2.0.0 Required SDK核心功能 -->
+35        <!-- 可配置android:process参数将Service放在其他进程中；android:enabled属性不能是false -->
+36        <!-- 这个是自定义Service，要继承极光JCommonService，可以在更多手机平台上使得推送通道保持的更稳定 -->
+37        <service
+37-->F:\flutter_windows_3.3.8-stable\flutter\.pub-cache\hosted\pub.flutter-io.cn\jpush_flutter-2.3.5\android\src\main\AndroidManifest.xml:29:9-36:19
+38            android:name="com.jiguang.jpush.JPushCustomService"
+38-->F:\flutter_windows_3.3.8-stable\flutter\.pub-cache\hosted\pub.flutter-io.cn\jpush_flutter-2.3.5\android\src\main\AndroidManifest.xml:29:18-52
+39            android:enabled="true"
+39-->F:\flutter_windows_3.3.8-stable\flutter\.pub-cache\hosted\pub.flutter-io.cn\jpush_flutter-2.3.5\android\src\main\AndroidManifest.xml:30:13-35
+40            android:exported="false"
+40-->F:\flutter_windows_3.3.8-stable\flutter\.pub-cache\hosted\pub.flutter-io.cn\jpush_flutter-2.3.5\android\src\main\AndroidManifest.xml:31:13-37
+41            android:process=":pushcore" >
+41-->F:\flutter_windows_3.3.8-stable\flutter\.pub-cache\hosted\pub.flutter-io.cn\jpush_flutter-2.3.5\android\src\main\AndroidManifest.xml:32:13-40
+42            <intent-filter>
+42-->F:\flutter_windows_3.3.8-stable\flutter\.pub-cache\hosted\pub.flutter-io.cn\jpush_flutter-2.3.5\android\src\main\AndroidManifest.xml:33:13-35:29
+43                <action android:name="cn.jiguang.user.service.action" />
+43-->F:\flutter_windows_3.3.8-stable\flutter\.pub-cache\hosted\pub.flutter-io.cn\jpush_flutter-2.3.5\android\src\main\AndroidManifest.xml:34:17-73
+43-->F:\flutter_windows_3.3.8-stable\flutter\.pub-cache\hosted\pub.flutter-io.cn\jpush_flutter-2.3.5\android\src\main\AndroidManifest.xml:34:25-70
+44            </intent-filter>
+45        </service>
+46    </application>
+47
+48</manifest>
